@@ -41,4 +41,4 @@ Documenting what I’m actively learning and building as I grow through my journ
 
 ***
 
-> _**"you must be the change you wanna see in the world"** ･ﾟ:⋆_･ﾟ
+> _**"you must be the change you wanna see in the world"**_  ✧&#x20;
