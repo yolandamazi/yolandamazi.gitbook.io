@@ -6,7 +6,8 @@
 
 * [Google Cybersecurity Profesional Certificate](certificates/google-cybersecurity-profesional-certificate.md)
 * [IBM Cybersecurity Certificate](certificates/ibm-cybersecurity-certificate.md)
-* [eJPTv2](certificates/ejptv2.md)
+* [AWS Certified Cloud Practitioner](certificates/aws-certified-cloud-practitioner.md)
+* [AWS Certified AI Practitioner](certificates/aws-certified-ai-practitioner.md)
 
 ## — computer engineering
 
