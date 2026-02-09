@@ -20,7 +20,7 @@ layout:
 
 <div data-full-width="true"><figure><img src=".gitbook/assets/Photoroom_20250515_153546.PNG" alt="" width="375"><figcaption></figcaption></figure></div>
 
-<h2 align="center">Welcome to yolandamazi's blog! </h2>
+<h2 align="center">Welcome to yolandamazi's blog! 👾✨</h2>
 
 ***
 
