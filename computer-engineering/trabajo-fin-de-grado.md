@@ -8,7 +8,7 @@ description: >-
 
 ## — ¿cómo inicio?
 
-### 1. el título, mejor conocido como el tema
+### 1. El título, mejor conocido como el tema
 
 Para poder crear un primer esqueleto, he querido empezar principalmente eligiendo un buen título, es decir, el tema. Estoy dubitativa entre varios temas, actualmente tengo dos opciones:
 
@@ -17,7 +17,7 @@ Para poder crear un primer esqueleto, he querido empezar principalmente eligiend
 
 Como puedes haberte dado cuenta, ambos tratan del mismo tema viéndolo en rasgos generales. Busco relacionar la ciberinteligencia con una herramienta web desarrollada para detectar credenciales expuestas (leaks), integrándola dentro de la gestión de riesgos en la respuesta a incidentes TIC y la continuidad del negocio, que es el área en la que actualmente trabajo. Me decanto más por la primera ya que da un primero boceto general del tema y luego se desarrolla.
 
-### 2. índice: capítulos y secciones
+### 2. Índice: capítulos y secciones
 
 Para desarrollar el esqueleto que mencionaba anteriormente, contar con un índice ya definido me permite conocer el camino que quiero seguir durante el desarrollo del tfg. Como primer boceto tengo esta idea:
 
