@@ -1,7 +1,13 @@
 ---
 icon: hearts
+cover: .gitbook/assets/Copy of Green Minimalist Studio Banner.png
+coverY: 1158.3227352517324
+coverHeight: 123
 layout:
   width: default
+  cover:
+    visible: true
+    size: hero
   title:
     visible: true
   description:
