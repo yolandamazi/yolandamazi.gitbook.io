@@ -1,6 +1,6 @@
 # Table of contents
 
-* [welcome back ¡!](README.md)
+* [welcome ¡!](README.md)
 
 ## — certificates
 
