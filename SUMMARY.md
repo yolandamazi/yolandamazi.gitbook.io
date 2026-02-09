@@ -17,7 +17,7 @@
 
 ## — writeups
 
-* [— hack the box](writeups/hack-the-box/README.md)
+* [Hack The Box](writeups/hack-the-box/README.md)
   * [Page 1](writeups/hack-the-box/page-1.md)
-* [— try hack me](writeups/try-hack-me/README.md)
+* [Try Hack Me](writeups/try-hack-me/README.md)
   * [Page 1](writeups/try-hack-me/page-1.md)
