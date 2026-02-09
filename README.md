@@ -29,3 +29,9 @@ layout:
 💼 Currently working as a Junior Analyst in Crisis & Incident Response @ Deloitte T\&T Cyber.\
 📄 Check out my resume for more details about my background — I’m always open to feedback and suggestions!\
 📫 You can reach me via email or my Linkedin.
+
+### — what's my purpose?
+
+
+
+### —&#x20;
