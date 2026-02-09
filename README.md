@@ -24,10 +24,10 @@ layout:
 
 ***
 
-🎓 I am currently pursuing a Bachelor's degree in Computer Engineering at the Escuela Politécnica Superior @ UAH.\
-💡 My main interests lie in cybersecurity, with a focus on deepening my knowledge and practical skills.\
-💼 Currently working as a Junior Analyst in Crisis & Incident Response @ Deloitte T\&T Cyber.\
-📄 Check out my [resume](https://drive.google.com/file/d/1LX3JLYcRwBXYVGnbMFfzHElTafTa703i/view?usp=sharing) for more details about my background — I’m always open to feedback and suggestions!
+* I'm pursuing a Bachelor's degree in Computer Engineering at the Escuela Politécnica Superior @ UAH.
+* My main interest lie in cybersecurity, focusing on deepening my knowledge and practical skills.
+* Currently working as a Junior Analyst in Crisis & Incident Response @ Deloitte T\&T Cyber.
+* Check out my [resume](https://drive.google.com/file/d/1LX3JLYcRwBXYVGnbMFfzHElTafTa703i/view?usp=sharing) for more details about my background — I’m always open to feedback and suggestions!
 
 ### — what's my purpose?
 
