@@ -39,3 +39,6 @@ Documenting what I’m actively learning and building as I grow through my journ
 
 [Linkedin](https://www.linkedin.com/in/yolanda-omoregbee-amazi/) | [GitHub](https://github.com/yolandamazi) | [Email](mailto:yolanda.omoregbee@edu.uah.es)&#x20;
 
+***
+
+> _**"you must be the change you wanna see in the world"** ･ﾟ:⋆_･ﾟ
