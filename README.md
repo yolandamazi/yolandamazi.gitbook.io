@@ -1,7 +1,7 @@
 ---
 icon: hearts
-cover: .gitbook/assets/Copy of Green Minimalist Studio Banner.png
-coverY: 1158.3227352517324
+cover: .gitbook/assets/Copy of Green Minimalist Studio Banner (1).png
+coverY: 1162.933787005524
 coverHeight: 123
 layout:
   width: default
