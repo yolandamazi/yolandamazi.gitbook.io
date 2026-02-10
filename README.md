@@ -35,6 +35,10 @@ layout:
 
 Documenting what I’m actively learning and building as I grow through my journey in cybersecurity and engineering. Right now, I’m focused on studying for cybersecurity certifications, strengthening my technical foundations, and developing the hands-on skills needed in the security field. I will write about the certificates I’m pursuing, the concepts I’m studying, the tools I’m practicing, and my progress as I train to become better at solving machines and understanding systems more deeply. This helps me stay consistent, reflect on my growth, and keep a clear record of everything I learn as I continue developing in the cybersecurity world.
 
+### — behind the writing
+
+You might notice I switch between Spanish and English across the blog. There’s no specific reason for this. There are some topics I simply feel more natural to write in one language or the other. I hope this won’t get in the way of understanding the information I’m sharing!
+
 ### — contact
 
 [Linkedin](https://www.linkedin.com/in/yolanda-omoregbee-amazi/) | [GitHub](https://github.com/yolandamazi) | [Email](mailto:yolanda.omoregbee@edu.uah.es)&#x20;
