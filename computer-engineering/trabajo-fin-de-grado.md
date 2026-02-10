@@ -10,16 +10,16 @@ description: >-
 
 ### 1. El título, mejor conocido como el tema
 
-Para poder crear un primer esqueleto, he querido empezar principalmente eligiendo un buen título, es decir, el tema. Estoy dubitativa entre varios temas, actualmente tengo dos opciones:
+Para poder crear un primer esqueleto, he querido empezar eligiendo un buen título, es decir, el tema. Estoy dubitativa entre varios temas, aunque me decanto principalmente en ciberinteligencia y credenciales expuestas. Actualmente tengo dos opciones:
 
 * Ciberinteligencia para el tratamiento operativo de credenciales expuestas: diseño e implementación de una herramienta para la identificación temprana, evaluación del riesgo y priorización en respuesta a incidentes
 * Análisis de credenciales expuestas mediante ciberinteligencia: herramientas para la identificación temprana y priorización de riesgos en incidentes de seguridad
 
-Como puedes haberte dado cuenta, ambos tratan del mismo tema viéndolo en rasgos generales. Busco relacionar la ciberinteligencia con una herramienta web desarrollada para detectar credenciales expuestas (leaks), integrándola dentro de la gestión de riesgos en la respuesta a incidentes TIC y la continuidad del negocio, que es el área en la que actualmente trabajo. Me decanto más por la primera ya que da un primero boceto general del tema y luego se desarrolla.
+Como puedes haberte dado cuenta, ambos tratan del mismo tema, mirándolo en rasgos generales. Busco relacionar la ciberinteligencia con una herramienta web desarrollada para detectar credenciales expuestas (leaks), integrándola dentro de la gestión de riesgos en la respuesta a incidentes TIC y la continuidad del negocio, que es el área en la que actualmente trabajo. Me decanto más por la primera ya que da un primero boceto general del tema y luego desarrolla m'as el tema.
 
 ### 2. Índice: capítulos y secciones
 
-Para desarrollar el esqueleto que mencionaba anteriormente, contar con un índice ya definido me permite conocer el camino que quiero seguir durante el desarrollo del tfg. Como primer boceto tengo esta idea:
+Para desarrollar el esqueleto que mencionaba anteriormente, contar con un índice predefinido me permite conocer el camino que quiero seguir durante el desarrollo del tfg. Como primer boceto tengo esta idea:
 
 1. Introducción
    1. Contexto y relevancia del problema
@@ -86,4 +86,8 @@ Para desarrollar el esqueleto que mencionaba anteriormente, contar con un índic
    3. Diagramas de flujo, dashboard y playbooks
    4. Resumen de escenarios de crisis y table-tops
 
-Simplemente le pedí, al tool que todos usamos ahora, la IA, que me generara una primera idea, no me parece un mal inicio, pero seguramente le implemente mejoras y cambios.
+Simplemente le pedí, al tool que todos usamos obviamente (la IA), que me generara una primera idea del índice, aunque seguramente le implemente mejoras y cambios.
+
+### 3. Lenguajes y frameworks
+
+Como ya os habreis dado cuenta, para este trabajo debo programar, por tanto debo elegir los lenguajes y frameworks que usaré para la herramienta a desarrollar. Cabe recalcar que esta es mi primera vez programando web, pero mi intención es a medida que avance desarrollar esos conocimientos en desarrollo web que no tengo. Digamos que es una especie de learning 2x1.
