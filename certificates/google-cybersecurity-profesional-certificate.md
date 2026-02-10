@@ -9,3 +9,5 @@ I’ve already completed the first three courses, which are:
 * Foundations of Cybersecurity
 * Play It Safe: Manage Security Risks
 * Connect and Protect: Networks and Network Security
+
+For the remaining courses, I’ll keep track of my learning through the blog, documenting the notes I consider important.
