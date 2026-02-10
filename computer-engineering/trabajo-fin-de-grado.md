@@ -90,4 +90,4 @@ Simplemente le pedí, al tool que todos usamos obviamente (la IA), que me genera
 
 ### 3. Lenguajes y frameworks
 
-Como ya os habreis dado cuenta, para este trabajo debo programar, por tanto debo elegir los lenguajes y frameworks que usaré para la herramienta a desarrollar. Cabe recalcar que esta es mi primera vez programando web, pero mi intención es a medida que avance desarrollar esos conocimientos en desarrollo web que no tengo. Digamos que es una especie de learning 2x1.
+Como ya os habreis dado cuenta, para este trabajo debo programar, por tanto debo elegir los lenguajes y frameworks que usaré para la herramienta a desarrollar. Cabe recalcar que esta es mi primera vez programando web, pero mi intención es que a medida que avance, desarrollar esos conocimientos en desarrollo web que todavía no tengo. Digamos que es una especie de learning 2x1.
