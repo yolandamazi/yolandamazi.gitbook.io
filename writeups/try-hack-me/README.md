@@ -1,2 +1,6 @@
-# — try hack me
+---
+hidden: true
+---
+
+# Try Hack Me
 

@@ -1,2 +1,6 @@
-# eJPTv2
+---
+hidden: true
+---
+
+# AWS Certified Cloud Practitioner
 

@@ -1,2 +1,6 @@
-# — hack the box
+---
+hidden: true
+---
+
+# Hack The Box
 

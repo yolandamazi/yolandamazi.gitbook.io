@@ -2,6 +2,7 @@
 description: >-
   Actualmente estoy trabajando y redactando mi TFG, por lo que usaré este
   espacio para documentar tanto la investigación como el desarrollo de este.
+hidden: true
 ---
 
 # Trabajo Fin de Grado
