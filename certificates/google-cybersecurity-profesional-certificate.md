@@ -14,7 +14,7 @@ For the remaining courses, I’ll keep track of my learning through the blog, do
 
 ### \[Course 4] Tools of the Trade: Linux and SQL
 
-#### — \[Module 1] Introduction to OS
+#### 4.1 Introduction to OS
 
 **Definitions:**
 
