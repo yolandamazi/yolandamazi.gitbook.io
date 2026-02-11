@@ -1,2 +1,0 @@
-# Modelado de Sistemas Computacionales
-

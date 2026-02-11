@@ -9,19 +9,18 @@
 * [AWS Certified Cloud Practitioner](certificates/aws-certified-cloud-practitioner.md)
 * [AWS Certified AI Practitioner](certificates/aws-certified-ai-practitioner.md)
 
+## — computer engineering
+
+* [Trabajo Fin de Grado](computer-engineering/trabajo-fin-de-grado.md)
+* [Seguridad en Sistemas Distribuidos](computer-engineering/seguridad-en-sistemas-distribuidos.md)
+* [Patrones Software](computer-engineering/patrones-software.md)
+
 ## — languages
 
 * [ENG](languages/eng/README.md)
   * [Use of English](languages/eng/use-of-english.md)
 * [FR](languages/fr/README.md)
   * [Grammar](languages/fr/grammar.md)
-
-## — computer engineering
-
-* [Trabajo Fin de Grado](computer-engineering/trabajo-fin-de-grado.md)
-* [Modelado de Sistemas Computacionales](computer-engineering/modelado-de-sistemas-computacionales.md)
-* [Seguridad en Sistemas Distribuidos](computer-engineering/seguridad-en-sistemas-distribuidos.md)
-* [Patrones Software](computer-engineering/patrones-software.md)
 
 ## — writeups
 
