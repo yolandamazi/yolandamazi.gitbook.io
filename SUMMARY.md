@@ -9,6 +9,13 @@
 * [AWS Certified Cloud Practitioner](certificates/aws-certified-cloud-practitioner.md)
 * [AWS Certified AI Practitioner](certificates/aws-certified-ai-practitioner.md)
 
+## — languages
+
+* [ENG](languages/eng/README.md)
+  * [Use of English](languages/eng/use-of-english.md)
+* [FR](languages/fr/README.md)
+  * [Grammar](languages/fr/grammar.md)
+
 ## — computer engineering
 
 * [Trabajo Fin de Grado](computer-engineering/trabajo-fin-de-grado.md)
