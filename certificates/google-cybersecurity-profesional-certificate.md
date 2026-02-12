@@ -1,3 +1,22 @@
+---
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+---
+
 # Google Cybersecurity Profesional Certificate
 
 To get hands-on experience in cybersecurity, I’ve enrolled in the Google Cybersecurity Professional Certificate. My goal is to learn the basics through this course before deepening my skills.&#x20;
@@ -12,9 +31,9 @@ I’ve already completed the first three courses, which are:
 
 For the remaining courses, I’ll keep track of my learning through the blog, documenting the notes I consider important or relevant.
 
-### \[Course 4] Tools of the Trade: Linux and SQL
+## \[Course 4] Tools of the Trade: Linux and SQL
 
-#### 4.1 Introduction to OS
+### 4.1 Introduction to OS
 
 * **OS (Operating System)**: the interface between the computer hardware and the user
 * **Legacy Operating System**: an OS that is not up to date while is still in use from a user. Might be vulnerable to new threats
@@ -27,15 +46,15 @@ For the remaining courses, I’ll keep track of my learning through the blog, do
 * **Command Line Interface (CLI)**: a user interface that uses commands to interact with the computer
 * **Graphical User Interface (GUI)**: a user interface that uses icons on the screen to manage different tasks on the computer
 
-#### 4.2 The Linux OS
+### 4.2 The Linux OS
 
 
 
-#### 4.3 Linux commands in the bash shell
+### 4.3 Linux commands in the bash shell
 
 
 
-#### 4.4 Databases and SQL
+### 4.4 Databases and SQL
 
 
 
