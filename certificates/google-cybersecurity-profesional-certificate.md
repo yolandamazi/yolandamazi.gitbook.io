@@ -48,7 +48,7 @@ For the remaining courses, I’ll keep track of my learning through the blog, do
 
 ### 4.2 The Linux OS
 
-
+* **Kernel**: a component of the Linux OS that manages processes and memory. The shell processes commands and outputs the results.
 
 ### 4.3 Linux commands in the bash shell
 
