@@ -16,11 +16,26 @@ For the remaining courses, I’ll keep track of my learning through the blog, do
 
 #### 4.1 Introduction to OS
 
-**Definitions:**
-
 * **OS (Operating System)**: the interface between the computer hardware and the user
 * **Legacy Operating System**: an OS that is not up to date while is still in use from a user. Might be vulnerable to new threats
 * **Basic Input/Output System (BIOS):** a microchip that contains loading instructions for the computer and is prevalent in older systems. It's activated when you boot your computer. Standard chip since 2007.
 * **Unified Extensible Firmware Interface (UEFI):** a microchip that is activated when you boot your computer and contains loading instructions for the computer and replaces BIOS on more modern systems. Mostly used on new computers.
 * **Bootloader**: a software program activated by the last instruction of the microchip during the computer’s boot process. It is responsible for starting the operating system.
+* **Virtual Machine (VM)**: is a virtual version of a physical computer. There are machines that don’t exist physically, but operate like they do because their software simulates physical hardware.
+  * Some benefits include improved _security_ due to its isolated environment, as well as increased _efficiency_, since you can streamline multiple tasks across different machines.
+* **Virtualization:** process of using software to create virtual representations of various physical machines.
+* **Command Line Interface (CLI)**: a user interface that uses commands to interact with the computer
+* **Graphical User Interface (GUI)**: a user interface that uses icons on the screen to manage different tasks on the computer
+
+#### 4.2 The Linux OS
+
+
+
+#### 4.3 Linux commands in the bash shell
+
+
+
+#### 4.4 Databases and SQL
+
+
 
