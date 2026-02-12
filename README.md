@@ -1,19 +1,5 @@
 ---
 icon: hearts
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # welcome ¡!
@@ -33,7 +19,7 @@ layout:
 
 ### — what's my purpose?
 
-Documenting what I’m actively learning and building as I grow through my journey in cybersecurity and engineering. Right now, I’m focused on studying for cybersecurity certifications, strengthening my technical foundations, and developing the hands-on skills needed in the security field. I will write about the certificates I’m pursuing, the concepts I’m studying, the tools I’m practicing, and my progress as I train to become better at solving machines and understanding systems more deeply. This helps me stay consistent, reflect on my growth, and keep a clear record of everything I learn as I continue developing in the cybersecurity world.
+Documenting what I’m actively learning and building as I grow through my journey in cybersecurity and engineering. Right now, I’m focused on studying for cybersecurity certifications, strengthening my technical foundations, and developing the hands-on skills needed in the security field. I will write about the certificates I’m pursuing, the concepts I’m studying, the tools I’m practicing, and my progress as I train to become better at solving machines and understanding systems more deeply. Additionally, I’ll track my language studies, including reinforcing my English skills and learning French as a new language. This helps me stay consistent, reflect on my growth, improve my language skills, and keep a clear record of everything I learn as I continue developing in the cybersecurity world.
 
 ### — behind the writing
 
