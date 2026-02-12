@@ -31,7 +31,7 @@ I’ve already completed the first three courses, which are:
 
 For the remaining courses, I’ll keep track of my learning through the blog, documenting the notes I consider important or relevant.
 
-## \[Course 4] Tools of the Trade: Linux and SQL
+## 4. Tools of the Trade: Linux and SQL
 
 ### 4.1 Introduction to OS
 
