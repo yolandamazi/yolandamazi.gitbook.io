@@ -49,6 +49,10 @@ For the remaining courses, I’ll keep track of my learning through the blog, do
 ### 4.2 The Linux OS
 
 * **Kernel**: a component of the Linux OS that manages processes and memory. The shell processes commands and outputs the results.
+* **Filesystem Hierarchy Standard (FHS):** component of the Linux OS that organizes data. It specifies the location where data is stored in the operating system.
+* **Central Processing Unit (CPU):** a computer’s main processor, which is used to perform general computing tasks on a computer. It executes the instructions provided by programs, which enables these programs to run.
+* **Random Access Memory (RAM):** a hardware component used for short-term memory. It’s where data is stored temporarily as you perform tasks on your computer.
+* **Hard drive**: a hardware component used for long-term memory.
 
 ### 4.3 Linux commands in the bash shell
 
