@@ -132,6 +132,26 @@ find [directory/file] -name "[string]"
 find [directory/file] -iname "[string]"
 # search files or directories last modified within a certain time frame based on days
 find [directory/file] -mtime [-/+ days] 
+# create a new file
+touch [file]
+# creates a new directory
+mkdir [directory]
+# removes, or deletes, a directory
+rmdir [directory]
+# removes, or deletes, a file 
+rm [file]
+# moves a file or directory to a new location and also to rename files
+mv [directory/file] [directory]
+mv [file_name] [file_name] 
+# copy a file to a directory
+cp [file] [directory]
+# open an existing file or create a new file (ctrl + o & ctrl + x to save)
+nano [file]
+# overwrites your file, if does not exist it creates it
+echo [string] > [file]
+# >> adds your content to the end of a file
+echo [string] >> [file]
+
 ```
 
 ### 1.4 Databases and SQL
