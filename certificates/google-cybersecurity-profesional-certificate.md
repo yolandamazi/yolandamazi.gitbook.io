@@ -75,22 +75,23 @@ For the remaining courses, I’ll keep track of my learning through the blog, do
 
 **Commands learned:**
 
-<pre class="language-bash"><code class="lang-bash"><strong># ensure APT is installed
-</strong><strong>apt
-</strong># install/remove an app, sudo is required for elevated privileges 
+```bash
+# ensure APT is installed
+apt
+# install/remove an app, sudo is required for elevated privileges 
 sudo apt install [app_name]
 sudo apt remove [app_name]
 # verify [app_name] has been installed/uninstalled
 [app_name]
 # list all installed applications
 apt list --installed
-<strong># generate output command
-</strong>echo
+# generate output command
+echo
 # generate output command
 expr
 # clear the Bash shell command
 clear
-</code></pre>
+```
 
 ### 1.3 Linux commands in the bash shell
 
@@ -103,11 +104,12 @@ clear
   * /mnt: stands for “mount” and stores media.
 * **Executables**: files that contain a series of commands a computer needs to follow to run programs and perform other functions.
 
-<pre class="language-bash"><code class="lang-bash"><strong># display names of files and directories in the current working directory
-</strong><strong>ls
-</strong><strong># returns the directory that you’re currently in
-</strong><strong>pwd
-</strong># navigates between directories
+```bash
+# display names of files and directories in the current working directory
+ls
+# returns the directory that you’re currently in
+pwd
+# navigates between directories
 cd
 # displays the content of a file
 cat
@@ -121,7 +123,7 @@ tail
 less
 # searches a file and returns all lines in the file containing a string or text
 grep
-</code></pre>
+```
 
 ### 1.4 Databases and SQL
 
