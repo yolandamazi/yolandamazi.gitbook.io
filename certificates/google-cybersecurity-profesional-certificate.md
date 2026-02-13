@@ -62,13 +62,33 @@ For the remaining courses, I’ll keep track of my learning through the blog, do
     * _Debian-derived_ Linux distributions, such as dpkg, have files which use the .deb file extension, such as Package\_Version-Release\_Architecture.deb.
 * **Advanced Package Tool (APT)  :** a tool used with Debian-derived distributions. It is run from the command line interface to manage, search, and install packages.
 * **Yellowdog Updater Modified (YUM)**  : a tool used with Red Hat derived distributions. It is run from the command line interface to manage, search, and install packages and it works with .rpm files.
-* **Shell:**&#x20;
+* **Shell:** is the command-line interpreter that processes commands and outputs the results. It´s able to return an output or an error message
   * Different types:
     * _Bourne-Again Shell (bash)_: is the default shell in most Linux distributions since it is considered a user-friendly shell.
     * _C Shell (csh)_
     * _Korn Shell (ksh)_
     * _Enhanced C shell (tcsh)_
     * _Z Shell (zsh)_
+* **Standard error:** error messages returned by the OS through the shell. Information returned by the OS through the shell is standard output.
+* **Standard input:** sent to the operating system.
+* **Standard output:** sent from the operating system.
+
+<pre class="language-bash"><code class="lang-bash"><strong># ensure APT is installed
+</strong><strong>apt
+</strong># install/remove an app, sudo is required for elevated privileges 
+sudo apt install [app_name]
+sudo apt remove [app_name]
+# verify [app_name] has been installed/uninstalled
+[app_name]
+# list all installed applications
+apt list --installed
+<strong># generate output command
+</strong>echo
+# generate output command
+expr
+# clear the Bash shell command
+clear
+</code></pre>
 
 ### 1.3 Linux commands in the bash shell
 
