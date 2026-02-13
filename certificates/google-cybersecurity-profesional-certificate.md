@@ -73,6 +73,8 @@ For the remaining courses, I’ll keep track of my learning through the blog, do
 * **Standard input:** sent to the operating system.
 * **Standard output:** sent from the operating system.
 
+**Commands learned:**
+
 <pre class="language-bash"><code class="lang-bash"><strong># ensure APT is installed
 </strong><strong>apt
 </strong># install/remove an app, sudo is required for elevated privileges 
@@ -92,7 +94,34 @@ clear
 
 ### 1.3 Linux commands in the bash shell
 
+* **Root directory:** the highest-level directory in Linux, and it’s always represented with a forward slash (/).
+* **Standard FHS directories:**  &#x20;directories directly below the root directory
+  * /home
+  * /bin: stands for “binary” and contains binary files and other executables.&#x20;
+  * /etc: stores the system’s configuration files.
+  * /tmp: stores many temporary files.&#x20;
+  * /mnt: stands for “mount” and stores media.
+* **Executables**: files that contain a series of commands a computer needs to follow to run programs and perform other functions.
 
+<pre class="language-bash"><code class="lang-bash"><strong># display names of files and directories in the current working directory
+</strong><strong>ls
+</strong><strong># returns the directory that you’re currently in
+</strong><strong>pwd
+</strong># navigates between directories
+cd
+# displays the content of a file
+cat
+# displays just the beginning of a file, by default 10 lines
+head
+# change the number of lines returned, specify the number of lines by including -n
+head -n [num_lines] [doc_name]
+# display just the end of a file, by default 10 lines
+tail
+# returns the content of a file one page at a time
+less
+# searches a file and returns all lines in the file containing a string or text
+grep
+</code></pre>
 
 ### 1.4 Databases and SQL
 
