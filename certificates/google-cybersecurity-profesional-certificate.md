@@ -76,7 +76,7 @@ For the remaining courses, I’ll keep track of my learning through the blog, do
 **Commands learned:**
 
 ```bash
-#ensure APT is installed
+# ensure APT is installed
 apt
 # install/remove an app, sudo is required for elevated privileges 
 sudo apt install [app_name]
