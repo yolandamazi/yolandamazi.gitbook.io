@@ -123,6 +123,15 @@ tail
 less
 # searches a file and returns all lines in the file containing a string or text
 grep
+# sends the standard output of a command as standard input to another command
+[ouput] | [input]
+# search for files and directories that contain a string in the name, are a file size, or were last modified within a certain time
+find
+# specify the string you’re searching for
+find [directory/file] -name "[string]"
+find [directory/file] -iname "[string]"
+# search files or directories last modified within a certain time frame based on days
+find [directory/file] -mtime [-/+ days] 
 ```
 
 ### 1.4 Databases and SQL
