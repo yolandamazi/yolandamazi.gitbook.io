@@ -105,6 +105,8 @@ clear
 * **Executables**: files that contain a series of commands a computer needs to follow to run programs and perform other functions.
 * **Root user:** user with elevated privileges to modify files.
 * **sudo**: super-user-do
+* **authentication**: The process of verifying who someone is
+* **authorization**: The concept of granting access to specific resources in a system
 
 ```bash
 # display names of files and directories in the current working directory
@@ -124,7 +126,7 @@ tail
 # returns the content of a file one page at a time
 less
 # searches a file and returns all lines in the file containing a string or text
-grep
+grep [string]
 # sends the standard output of a command as standard input to another command
 [ouput] | [input]
 # search for files and directories that contain a string in the name, are a file size, or were last modified within a certain time
@@ -178,8 +180,14 @@ sudo userdel [user]
 sudo chown [user] [file/directory]
 # change group owner, add ":" before group to designate it as a group name.
 sudo chown :[group] [file/directory]
-
-
+# display information on what other commands are and how they work
+man [command]
+# search for a command even if they do not know the specific command name.
+apropos [word]
+# search for multiple words.
+apropos -a [word_1] [word_2] ... [word_n]
+# displays a description of a command on a single line
+whatis [command]
 ```
 
 **Permissions Format**
@@ -191,3 +199,6 @@ sudo chown :[group] [file/directory]
 <table><thead><tr><th width="239.5999755859375">Character</th><th>Description</th></tr></thead><tbody><tr><td>u</td><td>indicates changes will be made to user permissions</td></tr><tr><td>g</td><td>indicates changes will be made to group permissions</td></tr><tr><td>o</td><td>indicates changes will be made to other permissions</td></tr><tr><td>+</td><td>adds permissions to the user, group, or other</td></tr><tr><td>-</td><td>removes permissions from the user, group, or other</td></tr><tr><td>=</td><td>assigns permissions for the user, group, or other</td></tr></tbody></table>
 
 ### 1.4 Databases and SQL
+
+
+
