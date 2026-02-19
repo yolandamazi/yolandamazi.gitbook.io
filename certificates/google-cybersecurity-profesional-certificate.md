@@ -103,6 +103,8 @@ clear
   * /tmp: stores many temporary files.&#x20;
   * /mnt: stands for “mount” and stores media.
 * **Executables**: files that contain a series of commands a computer needs to follow to run programs and perform other functions.
+* **Root user:** user with elevated privileges to modify files.
+* **sudo**: super-user-do
 
 ```bash
 # display names of files and directories in the current working directory
@@ -151,6 +153,32 @@ nano [file]
 echo [string] > [file]
 # >> adds your content to the end of a file
 echo [string] >> [file]
+# displays hidden files which start with a period (.) at the beginning.
+ls -a
+# displays permissions to files and directories, and also other additional information, including owner name, group, file size, and last modification time.
+ls -l
+# displays permissions to files and directories, including hidden files. This is a combination of the other two options.
+ls -la
+# changes permissions on files and directories.
+chmod [user_permissions], [group_permissions], [others_permissions], [document/directory]
+# adds a user to the system, it can be added to a -g, default group; -G, additional group
+sudo useradd [user]
+sudo useradd [group] [user]
+# modifies existing user accounts, to change the primary group of an existing user -g; to add supplemental group for an existing user -G
+sudo usermod [group] [group_name] [user]
+# changes the user’s home directory.
+sudo usermod -d [directory] [user]
+# changes the user’s login name.
+sudo usermod -l [name] [user]
+# locks the account so the user can’t log in.
+sudo usermod -L [user]
+# deletes a user from the system.
+sudo userdel [user]
+# changes ownership of a file or directory
+sudo chown [user] [file/directory]
+# change group owner, add ":" before group to designate it as a group name.
+sudo chown :[group] [file/directory]
+
 
 ```
 
@@ -158,5 +186,8 @@ echo [string] >> [file]
 
 <table><thead><tr><th width="113.79998779296875">Character</th><th width="124.20001220703125">Example</th><th>Meaning</th></tr></thead><tbody><tr><td>1st</td><td><strong>d</strong>rwxrwxrwx</td><td><p>file type : </p><ul><li>d for directory</li><li>"-" for a regular file</li></ul></td></tr><tr><td>2nd</td><td>d<strong>r</strong>wxrwxrwx</td><td><p>read permissions for user :</p><ul><li>"r" if it has read permissions</li><li>"-" if it lacks read permissions</li></ul></td></tr><tr><td>3rd</td><td>dr<strong>w</strong>xrwxrwx</td><td><p>write permissions for the user : </p><ul><li>"w" if the user has write permissions</li><li>"-" if the user lacks write permissions</li></ul></td></tr><tr><td>4th</td><td>drw<strong>x</strong>rwxrwx</td><td><p>execute permissions for the user : </p><ul><li>"x" if the user has execute permissions</li><li>"-" if the user lacks execute permissions</li></ul></td></tr><tr><td>5th</td><td>drwx<strong>r</strong>wxrwx</td><td><p>read permissions for the group : </p><ul><li>"r" if the group has read permissions</li><li>"-" if the group lacks read permission</li></ul></td></tr><tr><td>6th</td><td>drwxr<strong>w</strong>xrwx</td><td><p>write permissions for the group : </p><ul><li>"w" if the group has write permissions</li><li>"-" if the group lacks write permission</li></ul></td></tr><tr><td>7th</td><td>drwx<strong>r</strong>w<strong>x</strong>rwx</td><td><p>execute permissions for the group : </p><ul><li>"x" if the group has execute permissions</li><li>"-" if the group lacks execute permissions</li></ul></td></tr><tr><td>8th</td><td>drwxrwx<strong>r</strong>wx</td><td><p>read permissions for other : </p><ul><li>"r" if the other owner type has read permissions</li><li>"-" if the other owner type lacks read permissions</li></ul></td></tr><tr><td>9th</td><td>drwxrwxr<strong>w</strong>x</td><td><p>write permissions for other :</p><ul><li>"w" if the other owner type has write permissions</li><li>"-" if the other owner type lacks write permissions</li></ul></td></tr><tr><td>10th</td><td>drwxrwxrw<strong>x</strong></td><td><p>execute permissions for other :</p><ul><li>"x" if the other owner type has execute permissions</li><li>"-" if the other owner type lacks execute permissions</li></ul></td></tr></tbody></table>
 
-### 1.4 Databases and SQL
+**Chmod permissions format: \[u/g/o]\[+/-/=]\[permissions]**
 
+<table><thead><tr><th width="239.5999755859375">Character</th><th>Description</th></tr></thead><tbody><tr><td>u</td><td>indicates changes will be made to user permissions</td></tr><tr><td>g</td><td>indicates changes will be made to group permissions</td></tr><tr><td>o</td><td>indicates changes will be made to other permissions</td></tr><tr><td>+</td><td>adds permissions to the user, group, or other</td></tr><tr><td>-</td><td>removes permissions from the user, group, or other</td></tr><tr><td>=</td><td>assigns permissions for the user, group, or other</td></tr></tbody></table>
+
+### 1.4 Databases and SQL
