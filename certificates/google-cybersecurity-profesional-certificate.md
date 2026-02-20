@@ -200,5 +200,16 @@ whatis [command]
 
 ### 1.4 Databases and SQL
 
+```sql
+--- display the whole table 
+SELECT * FROM [table]
+--- display the columns
+SELECT [column_1], [column_2], ... [column_n] FROM [table]
+--- which table to query
+FROM [table]
+--- 
 
+
+
+```
 
