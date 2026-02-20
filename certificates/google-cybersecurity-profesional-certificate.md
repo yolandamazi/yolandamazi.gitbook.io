@@ -207,8 +207,10 @@ SELECT * FROM [table]
 SELECT [column_1], [column_2], ... [column_n] FROM [table]
 --- which table to query
 FROM [table]
---- 
-
+--- sequences the records in a ascending order by a query based on column or columns. 
+ORDER BY [column_1], [column_2], ... [column_n] 
+--- sequences the records in a descending order by a query based on column or columns. 
+ORDER BY [column_1], [column_2], ... [column_n] DESC;
 
 
 ```
