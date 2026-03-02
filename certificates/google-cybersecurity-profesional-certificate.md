@@ -241,9 +241,6 @@ SELECT COUNT(column) FROM [table];
 SELECT AVG(column) FROM [table];
 --- returns a single number that represents the sum of the numerical data in a column.
 SELECT SUM(column) FROM [table];
-
-
-
 ```
 
 **Wildcards applied to the string 'a' and examples:**
