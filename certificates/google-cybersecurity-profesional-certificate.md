@@ -249,3 +249,7 @@ SELECT SUM(column) FROM [table];
 **Wildcards applied to the string 'a' and examples:**
 
 <table><thead><tr><th width="95.5999755859375">Pattern</th><th>Results that could be returned</th></tr></thead><tbody><tr><td>'a%'</td><td>apple123, art, a</td></tr><tr><td>'a_'</td><td>as, an, a7</td></tr><tr><td>'a__'</td><td>as, an, a7</td></tr><tr><td>'%a'</td><td>pizza, Z6ra, a</td></tr><tr><td>'_a'</td><td>ma, 1a, Ha</td></tr><tr><td>'%a%'</td><td>Again, back, a</td></tr><tr><td>'_a<em>_</em>'</td><td>Car, ban, ea7</td></tr></tbody></table>
+
+## 2. Course 5: Assets, Threats and Vulnerabilities
+
+### 2.1 Introduction to asset security
