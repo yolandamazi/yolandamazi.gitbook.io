@@ -225,8 +225,7 @@ SELECT [column] FROM [table] WHERE [column] [operator] [filter_value];
 --- filters for numbers or dates within a range
 SELECT [column] FROM [table] WHERE [column] BETWEEN ['date_1'] AND ['date_2'];
 --- incorporate logical operators (AND, OR, NOT)
-SELECT [column] FROM [table]
-WHERE [column] [operator] [filter_value] [logical_operator] [column] [operator] [filter_value];
+SELECT [column] FROM [table] WHERE [column] [operator] [filter_value] [logical_operator] [column] [operator] [filter_value];
 --- inner join: rows that match on a specified column
 SELECT [column] FROM [table_1] INNER JOIN [table_2] ON [table_1].[column] [operator] [table_2].[column]
 --- left join: returns all the records of the first table and the rows of the second table that match on a column
@@ -250,3 +249,27 @@ SELECT SUM(column) FROM [table];
 ## 2. Course 5: Assets, Threats and Vulnerabilities
 
 ### 2.1 Introduction to asset security
+
+* **Risk**: anything that can impact the confidentiality, integrity, or availability of an asset
+* **Threat**: any circumstance or event that can negatively impact assets. They are commonly categorized as two types:
+  * Intentional
+  * Unintentional
+* **Vulnerability**: weakness that can be exploited by a threat. They can be grouped into two categories:
+  * Technical
+  * Human
+* **Risk:** anything that can impact the confidentiality, integrity, or availability of an asset. It's calculation formula is: **Likelihood x Impact = Risk**
+* **Asset management:** process of tracking assets and the risks that affect them.
+* **Asset:** It can be classified in:
+  * _**Restricted**_ is the highest level. This category is reserved for incredibly sensitive assets,  like need-to-know information.
+  * _**Confidential**_ refers to assets whose disclosure may lead to a significant negative impact on an organization.
+  * _**Internal-only**_ describes assets that are available to employees and business partners.
+  * _**Public**_ is the lowest level of classification. These assets have no negative consequences to the organization if they’re released.
+* **Cloud-based services:** a variety of on demand or web-based business solutions. There are three main categories of cloud-based services:
+  * _**Software as a service (SaaS):**_ front-end applications that users access via a web browser where the service providers host, manage and maintain all of the back-end systems for those applications.
+  * _**Platform as a service (PaaS):**_ back-end application development tools that clients can access online, where the cloud service providers host and maintain the back-end hardware and software that the apps use to operate
+  * _**Infrastructure as a service (IaaS):**_ customers are given remote access to a range of back-end systems that are hosted by the cloud service provider, including data processing servers, storage, networking resources, and more.
+* **Cloud security:** data is stored in the cloud and accessed over the internet, several challenges arise:
+  * **Misconfiguration:** customers of cloud-based services are responsible for configuring their own security environment.
+  * **Cloud-native breaches**: due to misconfigured services.
+  * **Monitoring access** **might be difficult** depending on the client and level of service.
+  * **Meeting regulatory standards** is a concern, particularly in industries that are required by law to follow specific requirements such as HIPAA, PCI DSS, and GDPR.
