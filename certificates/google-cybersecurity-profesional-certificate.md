@@ -196,9 +196,14 @@ whatis [command]
 
 **Chmod permissions format: \[u/g/o]\[+/-/=]\[permissions]**
 
-<table><thead><tr><th width="239.5999755859375">Character</th><th>Description</th></tr></thead><tbody><tr><td>u</td><td>indicates changes will be made to user permissions</td></tr><tr><td>g</td><td>indicates changes will be made to group permissions</td></tr><tr><td>o</td><td>indicates changes will be made to other permissions</td></tr><tr><td>+</td><td>adds permissions to the user, group, or other</td></tr><tr><td>-</td><td>removes permissions from the user, group, or other</td></tr><tr><td>=</td><td>assigns permissions for the user, group, or other</td></tr></tbody></table>
+<table><thead><tr><th width="113.99993896484375">Character</th><th>Description</th></tr></thead><tbody><tr><td>u</td><td>indicates changes will be made to user permissions</td></tr><tr><td>g</td><td>indicates changes will be made to group permissions</td></tr><tr><td>o</td><td>indicates changes will be made to other permissions</td></tr><tr><td>+</td><td>adds permissions to the user, group, or other</td></tr><tr><td>-</td><td>removes permissions from the user, group, or other</td></tr><tr><td>=</td><td>assigns permissions for the user, group, or other</td></tr></tbody></table>
 
 ### 1.4 Databases and SQL
+
+* **SQL (Structured Query Language):** programming language used to create, interact and request information from a database
+* **Wildcard**: is a special character that can be substituted with any other character.
+* **Relational database:** A structured database containing tables that are related to each other
+* **Foreign key:** column in a table that is a primary key in another table
 
 ```sql
 --- display the whole table 
@@ -211,7 +216,36 @@ FROM [table]
 ORDER BY [column_1], [column_2], ... [column_n] 
 --- sequences the records in a descending order by a query based on column or columns. 
 ORDER BY [column_1], [column_2], ... [column_n] DESC;
+--- create a filter
+SELECT [column] FROM [table] WHERE [column] = [filter_value];
+---  apply wildcards to the filter
+SELECT [column] FROM [table] WHERE [column] LIKE [wildcard];
+--- incorporate comparison operators (<, >, <=, >=, =, !=, <>)
+SELECT [column] FROM [table] WHERE [column] [operator] [filter_value];
+--- filters for numbers or dates within a range
+SELECT [column] FROM [table] WHERE [column] BETWEEN ['date_1'] AND ['date_2'];
+--- incorporate logical operators (AND, OR, NOT)
+SELECT [column] FROM [table]
+WHERE [column] [operator] [filter_value] [logical_operator] [column] [operator] [filter_value];
+--- inner join: rows that match on a specified column
+SELECT [column] FROM [table_1] INNER JOIN [table_2] ON [table_1].[column] [operator] [table_2].[column]
+--- left join: returns all the records of the first table and the rows of the second table that match on a column
+SELECT [column] FROM [table_1] LEFT JOIN [table_2] ON [table_1].[column] [operator] [table_2].[column]
+--- right join: returns all of the records of the second table and the rows from the first table that match on a specified column. 
+SELECT [column] FROM [table_1] RIGHT JOIN [table_2] ON [table_1].[column] [operator] [table_2].[column]
+--- full outer join: returns all records from both tables completely merging them.
+SELECT [column] FROM [table_1] FULL OUTER JOIN [table_2] ON [table_1].[column] [operator] [table_2].[column]
+--- returns a single number that represents the number of rows returned from your query.
+SELECT COUNT(column) FROM [table];
+--- returns a single number that represents the average of the numerical data in a column.
+SELECT AVG(column) FROM [table];
+--- returns a single number that represents the sum of the numerical data in a column.
+SELECT SUM(column) FROM [table];
+
 
 
 ```
 
+**Wildcards applied to the string 'a' and examples:**
+
+<table><thead><tr><th width="95.5999755859375">Pattern</th><th>Results that could be returned</th></tr></thead><tbody><tr><td>'a%'</td><td>apple123, art, a</td></tr><tr><td>'a_'</td><td>as, an, a7</td></tr><tr><td>'a__'</td><td>as, an, a7</td></tr><tr><td>'%a'</td><td>pizza, Z6ra, a</td></tr><tr><td>'_a'</td><td>ma, 1a, Ha</td></tr><tr><td>'%a%'</td><td>Again, back, a</td></tr><tr><td>'_a<em>_</em>'</td><td>Car, ban, ea7</td></tr></tbody></table>
