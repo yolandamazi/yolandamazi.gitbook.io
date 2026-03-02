@@ -287,6 +287,19 @@ SELECT SUM(column) FROM [table];
     * _Recover_
     * _Govern_
   * _**Tiers:**_ a way of measuring the sophistication of an organization's cybersecurity program measured on a scale of 1 to 4. Tier 1 is the lowest score, indicating that a limited set of security controls have been implemented.&#x20;
-  * **Profiles:** pre-made templates that are developed by a team of industry experts, tailored to address the specific risks of an organization or industry, used to help organizations develop a baseline for their cybersecurity plans, or as a way of comparing their current cybersecurity posture to a specific industry standard.
+  * _**Profiles**_**:** pre-made templates that are developed by a team of industry experts, tailored to address the specific risks of an organization or industry, used to help organizations develop a baseline for their cybersecurity plans, or as a way of comparing their current cybersecurity posture to a specific industry standard.
 * **Principle of least privilege:** security concept in which a user is only granted the minimum level of access and authorization required to complete a task or function.
+* **Data lifecycle:** has five stages. Each describe how data flows through an organization from the moment it is created until it is no longer useful:
+  * _**Collect**_
+  * _**Store**_
+  * _**Use**_
+  * _**Archive**_
+  * _**Destroy**_
+* **Data governance:** set of processes that define how an organization manages information. It policies commonly categorize individuals into a specific role:
+  * _**Data owner:**_ the person that decides who can access, edit, use, or destroy their information.
+  * _**Data custodian:**_ anyone or anything that's responsible for the safe handling, transport, and storage of information.
+  * _**Data steward:**_ the person or group that maintains and implements data governance policies set by an organization.
+* **PII (Personally Identifiable Information):** any information used to infer an individual's identity, refers to information that can be used to contact or locate someone.
+* **PHI:** information that relates to the past, present, or future physical or mental health or condition of an individual
+* **SPII (Sensitive Personally Identifiable Information):** specific type of PII that falls under stricter handling guidelines. The S stands for sensitive, meaning this is a type of personally identifiable information that should only be accessed on a need-to-know basis, such as a bank account number or login credentials.
 
