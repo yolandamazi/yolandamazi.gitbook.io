@@ -288,6 +288,9 @@ SELECT SUM(column) FROM [table];
     * _Govern_
   * _**Tiers:**_ a way of measuring the sophistication of an organization's cybersecurity program measured on a scale of 1 to 4. Tier 1 is the lowest score, indicating that a limited set of security controls have been implemented.&#x20;
   * _**Profiles**_**:** pre-made templates that are developed by a team of industry experts, tailored to address the specific risks of an organization or industry, used to help organizations develop a baseline for their cybersecurity plans, or as a way of comparing their current cybersecurity posture to a specific industry standard.
+
+## 2.2 Protect organizational assets
+
 * **Principle of least privilege:** security concept in which a user is only granted the minimum level of access and authorization required to complete a task or function.
 * **Data lifecycle:** has five stages. Each describe how data flows through an organization from the moment it is created until it is no longer useful:
   * _**Collect**_
@@ -302,4 +305,11 @@ SELECT SUM(column) FROM [table];
 * **PII (Personally Identifiable Information):** any information used to infer an individual's identity, refers to information that can be used to contact or locate someone.
 * **PHI:** information that relates to the past, present, or future physical or mental health or condition of an individual
 * **SPII (Sensitive Personally Identifiable Information):** specific type of PII that falls under stricter handling guidelines. The S stands for sensitive, meaning this is a type of personally identifiable information that should only be accessed on a need-to-know basis, such as a bank account number or login credentials.
+* **Information privacy:** refers to the protection from unauthorized access and distribution of data.
+* **Information security (InfoSec):** refers to the practice of keeping data in all states away from unauthorized users.
+* **GDPR (General Data Protection Regulation):** set of rules and regulations developed by the European Union (EU) that puts data owners in total control of their personal information.
+* **PCI DSS (Payment Card Industry Data Security Standard):** set of security standards formed by major organizations in the financial industry.
+* **HIPAA (Health Insurance Portability and Accountability Act)**: a U.S. law that requires the protection of sensitive patient health information.
+* **Security audit:** a review of an organization's security controls, policies, and procedures against a set of expectations.
+* **Security assessment:** a check to determine how resilient current security implementations are against threats.
 
