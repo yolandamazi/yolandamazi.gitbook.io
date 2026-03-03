@@ -312,4 +312,9 @@ SELECT SUM(column) FROM [table];
 * **HIPAA (Health Insurance Portability and Accountability Act)**: a U.S. law that requires the protection of sensitive patient health information.
 * **Security audit:** a review of an organization's security controls, policies, and procedures against a set of expectations.
 * **Security assessment:** a check to determine how resilient current security implementations are against threats.
+* **Encryption**: process of converting data from a readable format to an encoded format. There are two main types:
+  * **Symmetric encryption:** is the use of a single secret key to exchange information where the sender and receiver must know the secret key to lock or unlock the cipher.
+  * **Asymmetric encryption:** is the use of a public and private key pair for encryption and decryption of data. It uses two separate keys: a public key used to encrypt data, and a private key decrypts it and is only given to users with authorized access.
+* **PKI (Public key infrastructure)**: encryption framework that secures the exchange of online information
+* **Cipher**: algorithm that encrypts information, and they are vulnerable to brute force attacks
 
