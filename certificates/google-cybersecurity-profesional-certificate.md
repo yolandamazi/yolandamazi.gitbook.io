@@ -330,7 +330,16 @@ SELECT SUM(column) FROM [table];
   * _**Rivest Shamir Adleman (RSA):**_ one of the first asymmetric encryption algorithms that produces a public and private key pair. It produces even longer key lengths. RSA key sizes are 1,024, 2,048, or 4,096 bits. Mainly used to protect highly sensitive data.
   * _**Digital Signature Algorithm (DSA):**_ generates key lengths of 2,048 bits. This algorithm is widely used today as a complement to RSA in public key infrastructure.
 * **OpenSSL**: open-source command line tool that can be used to generate public and private keys, commonly used by computers to verify digital certificates that are exchanged as part of public key infrastructure.
-* **Non-repudiation:** the concept that the authenticity of information can’t be denied.
+* **Non-repudiation:** the concept that the authenticity of information can’t be denied
+* **Hash functions:** algorithms that produce a code that can't be decrypted and they convert information into a unique value that can then be used to determine its integrity
+* **MD5:** a hash function that works by converting data into a 128-bit value. Values are limited to 32 characters in length. Due to the limited output size, the algorithm is considered to be vulnerable to hash collision
+* **Hash collision:** instance when different inputs produce the same hash value
+* **Secure Hashing Algorithms (SHAs):** a new group of functions considered to be collision-resistant, but that doesn’t make them invulnerable to other exploits. Five functions make up the SHA family of algorithms:
+  * SHA-1
+  * SHA-224
+  * SHA-256
+  * SHA-384
+  * SHA-512
 
 ```bash
 # decrypt an encrypted file
