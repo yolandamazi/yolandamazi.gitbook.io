@@ -312,9 +312,34 @@ SELECT SUM(column) FROM [table];
 * **HIPAA (Health Insurance Portability and Accountability Act)**: a U.S. law that requires the protection of sensitive patient health information.
 * **Security audit:** a review of an organization's security controls, policies, and procedures against a set of expectations.
 * **Security assessment:** a check to determine how resilient current security implementations are against threats.
+
+#### 2.2.1 Encryption Methods
+
 * **Encryption**: process of converting data from a readable format to an encoded format. There are two main types:
   * **Symmetric encryption:** is the use of a single secret key to exchange information where the sender and receiver must know the secret key to lock or unlock the cipher.
   * **Asymmetric encryption:** is the use of a public and private key pair for encryption and decryption of data. It uses two separate keys: a public key used to encrypt data, and a private key decrypts it and is only given to users with authorized access.
 * **PKI (Public key infrastructure)**: encryption framework that secures the exchange of online information
 * **Cipher**: algorithm that encrypts information, and they are vulnerable to brute force attacks
+* **Types of encryption:**
+  * _**Symmetric encryption:**_ use of a single secret key to exchange information because it uses one key for encryption and decryption, the sender and receiver must know the secret key to lock or unlock the cipher.
+  * _**Asymmetric encryption:**_ use of a public and private key pair for encryption and decryption of data, using two separate keys: a public key, used to encrypt data, and the private key, to decrypt it the public one. The private key is only given to users with authorized access.
+* **Symmetric algorithms:**
+  * _**Triple DES (3DES):**_ applies the DES algorithm three times, using three different 56-bit keys. This results in an effective key length of 168 bits. It's likely to remain in use for backwards compatibility purposes.
+  * _**Advanced Encryption Standard (AES):**_ generates keys that are 128, 192, or 256 bits. Cryptographic keys of this size are considered to be safe from brute force attacks. It’s estimated that brute forcing an AES 128-bit key could take a modern computer billions of years!
+* **Asymmetric algorithms:**
+  * _**Rivest Shamir Adleman (RSA):**_ one of the first asymmetric encryption algorithms that produces a public and private key pair. It produces even longer key lengths. RSA key sizes are 1,024, 2,048, or 4,096 bits. Mainly used to protect highly sensitive data.
+  * _**Digital Signature Algorithm (DSA):**_ generates key lengths of 2,048 bits. This algorithm is widely used today as a complement to RSA in public key infrastructure.
+* **OpenSSL**: open-source command line tool that can be used to generate public and private keys, commonly used by computers to verify digital certificates that are exchanged as part of public key infrastructure.
+* **Non-repudiation:** the concept that the authenticity of information can’t be denied.
 
+```bash
+# decrypt an encrypted file
+# openssl command reverses the encryption of the file with a secure symmetric cipher as indicated by AES-256-CBC
+# -pbkdf2 option to add extra security to the key
+# -a indicates the desired encoding for the output
+# -d indicates decrypting
+# -in specifies the input file
+# -out specifies the output file
+# -k specifies the password, in this example is ettubrute
+openssl aes-256-cbc -pbkdf2 -a -d -in Q1.encrypted -out Q1.recovered -k ettubrute
+```
