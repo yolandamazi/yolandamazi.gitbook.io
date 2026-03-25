@@ -291,6 +291,8 @@ SELECT SUM(column) FROM [table];
 
 ## 2.2 Protect organizational assets
 
+#### 2.2.1 Safeguard information
+
 * **Principle of least privilege:** security concept in which a user is only granted the minimum level of access and authorization required to complete a task or function.
 * **Data lifecycle:** has five stages. Each describe how data flows through an organization from the moment it is created until it is no longer useful:
   * _**Collect**_
@@ -313,7 +315,7 @@ SELECT SUM(column) FROM [table];
 * **Security audit:** a review of an organization's security controls, policies, and procedures against a set of expectations.
 * **Security assessment:** a check to determine how resilient current security implementations are against threats.
 
-#### 2.2.1 Encryption Methods
+#### 2.2.2 Encryption Methods
 
 * **Encryption**: process of converting data from a readable format to an encoded format. There are two main types:
   * **Symmetric encryption:** is the use of a single secret key to exchange information where the sender and receiver must know the secret key to lock or unlock the cipher.
@@ -332,7 +334,7 @@ SELECT SUM(column) FROM [table];
 * **OpenSSL**: open-source command line tool that can be used to generate public and private keys, commonly used by computers to verify digital certificates that are exchanged as part of public key infrastructure.
 * **Non-repudiation:** the concept that the authenticity of information can’t be denied
 * **Hash functions:** algorithms that produce a code that can't be decrypted and they convert information into a unique value that can then be used to determine its integrity
-* **MD5:** a hash function that works by converting data into a 128-bit value. Values are limited to 32 characters in length. Due to the limited output size, the algorithm is considered to be vulnerable to hash collision
+* **MD5:** hash function that works by converting data into a 128-bit value. Values are limited to 32 characters in length. Due to the limited output size, the algorithm is considered to be vulnerable to hash collision
 * **Hash collision:** instance when different inputs produce the same hash value
 * **Secure Hashing Algorithms (SHAs):** a new group of functions considered to be collision-resistant, but that doesn’t make them invulnerable to other exploits. Five functions make up the SHA family of algorithms:
   * SHA-1
@@ -340,6 +342,9 @@ SELECT SUM(column) FROM [table];
   * SHA-256
   * SHA-384
   * SHA-512
+* **Rainbow table:** a file of pre-generated hash values and their associated plaintext, that they’re like dictionaries of weak passwords
+* **Salting:** additional safeguard that's used to strengthen hash functions, where the additional characters produce a more unique hash value, making salted data resilient to rainbow table attacks
+* **Salt:** random string of characters that's added to data before it's hashed.&#x20;
 
 ```bash
 # decrypt an encrypted file
@@ -351,4 +356,31 @@ SELECT SUM(column) FROM [table];
 # -out specifies the output file
 # -k specifies the password, in this example is ettubrute
 openssl aes-256-cbc -pbkdf2 -a -d -in Q1.encrypted -out Q1.recovered -k ettubrute
+# generate the hash of a file
+sha256sum [FILE]
+# highlight the differences between two files
+cmp [FILE_1] [FILE_2]
 ```
+
+#### 2.2.3 Authentication, authorization, and accounting
+
+* **Single sign-on (SSO):** a technology that combines several different logins into one. Three reasons to use it as a solution to authentication are:
+  * **SSO improves the user experience** by eliminating the number of usernames and passwords people have to remember.
+  * **Companies can lower costs** by streamlining how they manage connected services.
+  * **SSO improves overall security** by reducing the number of access points attackers can target.
+* **Multi-factor authentication (MFA):** a user to verify their identity in two or more ways to access a system or network. It asks users to provide these proofs, such as:
+  * **Something a user knows:** most commonly a username and password
+  * **Something a user has:** normally received from a service provider, like a one-time passcode (OTP) sent via SMS
+  * **Something a user is:** refers to physical characteristics of a user, like their fingerprints or facial scans
+* **Principle of least privilege:** a user is only granted the minimum level of access and authorization required to complete a task or function
+* **Separation of duties:** users should not be given levels of authorization that would allow them to misuse a system
+* **Identity and access management (IAM):** a collection of processes and technologies that helps organizations manage digital identities in their environment. There are three common frameworks that organizations use to handle this step of IAM:
+  * _**Mandatory access control (MAC):**_ is the strictest of the three frameworks. Authorization is based on a strict need-to-know basis. Access to information must be granted manually by a central authority or system administrator.&#x20;
+  * _**Discretionary access control (DAC):**_ is typically applied when a data owner decides appropriate levels of access. One example of DAC is when the owner of a Google Drive folder shares editor, viewer, or commentor access with someone else.
+  * _**Role-based access control (RBAC)**_
+* **AAA framework:** authentication, authorization, and accounting
+* **Authenticating users:** factors that can be used to authenticate a user:
+  * _**Knowledge**_, or something the user knows
+  * _**Ownership**_, or something the user possesses
+  * _**Characteristic**_, or something the user is
+* **User provisioning:** the process of creating and maintaining a user's digital identity
