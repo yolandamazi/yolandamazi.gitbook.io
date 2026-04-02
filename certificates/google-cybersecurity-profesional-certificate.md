@@ -384,3 +384,17 @@ cmp [FILE_1] [FILE_2]
   * _**Ownership**_, or something the user possesses
   * _**Characteristic**_, or something the user is
 * **User provisioning:** the process of creating and maintaining a user's digital identity
+* **Mandatory access control (MAC):** is the strictest of the three frameworks, and authorization in this model is based on a strict need-to-know basis, access to information must be granted manually by a central authority or system administrator, and, is also known as non-discretionary control because access isn’t given at the discretion of the data owner.
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+* **Discretionary access control (DAC):** is typically applied when a data owner decides appropriate levels of access.
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+* **Role-based access control (RBAC):** is used when authorization is determined by a user's role within an organization.
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+### 2.3 Vulnerabilities in systems
+
