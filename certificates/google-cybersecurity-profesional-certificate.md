@@ -374,16 +374,13 @@ cmp [FILE_1] [FILE_2]
   * **Something a user is:** refers to physical characteristics of a user, like their fingerprints or facial scans
 * **Principle of least privilege:** a user is only granted the minimum level of access and authorization required to complete a task or function
 * **Separation of duties:** users should not be given levels of authorization that would allow them to misuse a system
-* **Identity and access management (IAM):** a collection of processes and technologies that helps organizations manage digital identities in their environment. There are three common frameworks that organizations use to handle this step of IAM:
-  * _**Mandatory access control (MAC):**_ is the strictest of the three frameworks. Authorization is based on a strict need-to-know basis. Access to information must be granted manually by a central authority or system administrator.&#x20;
-  * _**Discretionary access control (DAC):**_ is typically applied when a data owner decides appropriate levels of access. One example of DAC is when the owner of a Google Drive folder shares editor, viewer, or commentor access with someone else.
-  * _**Role-based access control (RBAC)**_
 * **AAA framework:** authentication, authorization, and accounting
 * **Authenticating users:** factors that can be used to authenticate a user:
   * _**Knowledge**_, or something the user knows
   * _**Ownership**_, or something the user possesses
   * _**Characteristic**_, or something the user is
 * **User provisioning:** the process of creating and maintaining a user's digital identity
+* **Identity and access management (IAM):** a collection of processes and technologies that helps organizations manage digital identities in their environment.
 * **Mandatory access control (MAC):** is the strictest of the three frameworks, and authorization in this model is based on a strict need-to-know basis, access to information must be granted manually by a central authority or system administrator, and, is also known as non-discretionary control because access isn’t given at the discretion of the data owner.
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
