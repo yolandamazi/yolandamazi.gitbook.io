@@ -395,3 +395,5 @@ cmp [FILE_1] [FILE_2]
 
 ### 2.3 Vulnerabilities in systems
 
+#### 2.3.1 Flaws in the system
+
