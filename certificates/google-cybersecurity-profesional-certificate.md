@@ -383,11 +383,11 @@ cmp [FILE_1] [FILE_2]
 * **Identity and access management (IAM):** a collection of processes and technologies that helps organizations manage digital identities in their environment.
 * **Mandatory access control (MAC):** is the strictest of the three frameworks, and authorization in this model is based on a strict need-to-know basis, access to information must be granted manually by a central authority or system administrator, and, is also known as non-discretionary control because access isn’t given at the discretion of the data owner.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Discretionary access control (DAC):** is typically applied when a data owner decides appropriate levels of access.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Role-based access control (RBAC):** is used when authorization is determined by a user's role within an organization.
 
@@ -397,3 +397,25 @@ cmp [FILE_1] [FILE_2]
 
 #### 2.3.1 Flaws in the system
 
+* **CI/CD (Continuous Integration, Continuous Delivery, and Continuous Deployment)**: automates, that is what enables modern development teams to be agile and respond quickly to user needs, the entire software release process, from code creation to deployment.
+* **Continuous Integration (CI):** is all about frequently merging code changes from different developers into a central location, triggering automated processes. It catches integration problems early, leading to higher quality code, through an automated process:
+  1. Code is integrated
+  2. The system automatically builds and tests it.&#x20;
+  3. The immediate feedback loop reveals integration problems as soon as they occur.&#x20;
+* **Continuous Delivery (CD):** means your code is always ready to be released to users. After passing automated tests, code is automatically deployed to a staging environment (a practice environment) or prepared for final release, and a manual approval is needed before going live to production, providing a control point.
+* **Continuous Deployment (CD):** automates the entire release process, where all automated checks are automatically deployed directly to the live production environment, with no manual approval being all about speed and efficiency.
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+* **Dynamic Application Security Testing (DAST):** automated tests that find vulnerabilities in running applications in realistic staging environments.
+* **Security Compliance Checks:** automated checks that ensure software meets your organization’s security rules and policies.
+* **Infrastructure Security Validations:** checks that make sure the systems hosting your software are secure.
+* **Secure Automation:** CI/CD automates repetitive tasks: building, testing, deploying. When automation is implemented securely, this reduces errors from manual work, speeds processes, and importantly, reduces human errors that create vulnerabilities.&#x20;
+* **Improved Code Quality Via Security Checks:** automated tests in CI/CD rigorously check code before release, including automated security tests, leading to fewer bugs and security weaknesses in final software, but only if security tests integrate effectively within the pipeline.
+* **Faster Time to Market for Security Updates:** CI/CD accelerates releases, which enables faster delivery of new features, bug fixes, and security updates, improving response time to both user needs and security threats. This rapid deployment of security updates is a significant security advantage of a well-secured CI/CD pipeline.
+* **Enhanced Collaboration and Feedback with Safety Focus:** CI/CD encourages collaboration between development, security, testing, and operations teams. This collaborative environment is essential to build security into the pipeline and address vulnerabilities proactively.
+* **Reduced Risk:** Frequent, smaller releases, a result of CI/CD, are less risky than large, infrequent releases. If issues arise, pinpointing and fixing the problem becomes easier. Smaller, frequent releases limit the potential impact of a security flaw introduced in any single release, provided security monitoring and testing remain continuous.
+* **Risks from Third-Party Code:** common vulnerabilities and exposures, or CVEs, those vulnerabilities can be unknowingly added to your application during the automated build process. This is done by regularly scan and update your dependencies, making sure you’re using secure versions of all external components.
+*   **Controlling Access:** Weak access controls in CI/CD tools, code repositories, and related systems are a significant vulnerability. Unauthorized access can allow attackers to modify code, pipeline configurations, or inject malicious content.
+
+    Action Step: Implement strong access management using Role-Based Access Control (RBAC). Ensure only authorized individuals can access and change critical pipeline elements.
