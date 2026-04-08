@@ -416,6 +416,24 @@ cmp [FILE_1] [FILE_2]
 * **Enhanced Collaboration and Feedback with Safety Focus:** CI/CD encourages collaboration between development, security, testing, and operations teams. This collaborative environment is essential to build security into the pipeline and address vulnerabilities proactively.
 * **Reduced Risk:** Frequent, smaller releases, a result of CI/CD, are less risky than large, infrequent releases. If issues arise, pinpointing and fixing the problem becomes easier. Smaller, frequent releases limit the potential impact of a security flaw introduced in any single release, provided security monitoring and testing remain continuous.
 * **Risks from Third-Party Code:** common vulnerabilities and exposures, or CVEs, those vulnerabilities can be unknowingly added to your application during the automated build process. This is done by regularly scan and update your dependencies, making sure you’re using secure versions of all external components.
-*   **Controlling Access:** Weak access controls in CI/CD tools, code repositories, and related systems are a significant vulnerability. Unauthorized access can allow attackers to modify code, pipeline configurations, or inject malicious content.
+* **Controlling Access:** unauthorized access can allow attackers to modify code, pipeline configurations, or inject malicious content, so implementing strong access management using Role-Based Access Control (RBAC), ensures only authorized individuals can access and change critical pipeline elements.
+* **Best practices for your CI/CD security strategy:**
+  * _**Integrate Security from the Start:**_ embracing DevSecOps by adopting a DevSecOps mindset, which means building security into every stage of development, from planning to deployment and beyond, including embedding security checks
+  * _**Implement Strong Access Controls:**_ use strict permission policies based on the principle of least privilege by only granting necessary access to code, pipeline settings, and deployment configurations. (Multi-Factor Authentication (MFA), Role-Based Access Control (RBAC))
+  * _**Automate Security Testing Everywhere:**_ make automated security scans and tests a fundamental part of your build and deployment process (SAST, Software Composition Analysis (SCA), and DAST are essential)
+  * _**Keep Dependencies Updated:**_ maintain a current inventory of all third-party dependencies, libraries, and CI/CD plugins. Regularly update these components to patch security vulnerabilities (CVEs) (Dependabot    &#x20;and    &#x20;Snyk    )
+  * _**Secure Secrets Management:**_ never hardcode sensitive information in your code or pipeline configurations, dedicated secrets management tools (HashiCorp Vault, AWS Secrets Manager)
+* **Defense in depth:** a layered approach to vulnerability management that reduces risk protecting assets by surrounding them with multiple layers of protection.
+* **OWASP:** an open platform that security professionals from around the world use to share information, tools, and events that are focused on securing the web.
+* **The OWASP Top 10**: a list to spread awarreness of the web's most targeted vulnerabilities. The most regularly listed vulnerabilities that appear in their rankings to know about:
+  * _**Broken access control:**_ unauthorized information disclosure, modification, or destruction
+  * _**Cryptographic failures:**_ fail to encrypt things like personally identifiable information (PII)
+  * _**Injection:**_ when malicious code is inserted into a vulnerable application, although the app appears to work normally
+  * _**Insecure design:**_ a wide range of missing or poorly implemented security controls that should have been programmed into an application when it was being developed
+  * _**Security misconfiguration:**_ security settings aren’t properly set or maintained
+  * _**Vulnerable and outdated components:**_ applications that use vulnerable components that have not been maintained are at greater risk of being exploited by threat actors
+  * _**Identification and authentication failures:**_ when applications fail to recognize who should have access and what they’re authorized to do
+  * _**Software and data integrity failures:**_ are instances when updates or patches are inadequately reviewed before implementation
+  * _**Security logging and monitoring failures**_
+  * _**Server-side request forgery:** &#x77;_&#x68;en you use a hyperlink or click a button on a website, a request is sent to a server that should validate who you are, fetch the appropriate data, and then return it to you
 
-    Action Step: Implement strong access management using Role-Based Access Control (RBAC). Ensure only authorized individuals can access and change critical pipeline elements.
