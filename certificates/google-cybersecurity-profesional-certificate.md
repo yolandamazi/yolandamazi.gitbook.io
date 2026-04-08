@@ -561,6 +561,31 @@ cmp [FILE_1] [FILE_2]
 
 #### 2.4.3 Web-based exploits
 
-*
+* **SQL injection**: attack that executes unexpected queries on a database. There are three main categories of SQL injection:
+  * _**In-band:**_ uses the same communication channel to launch the attack and gather the results
+  * _**Out-of-band:**_ uses a different communication channel to launch the attack and gather the results
+  * _**Inferential:**_ when an attacker is unable to directly see the results of their attack so they can interpret the results by analyzing the behavior of the system
+* **Prepared statements:** a coding technique, to escape user inputs, that executes SQL statements before passing them on to a database
+* **Input sanitization:** programming way to escape user inputs, that removes user input which could be interpreted as code
+* **Input validation:** programming way to escape user inputs, that ensures user input meets a system's expectations
 
 #### 2.4.4 Threat modeling
+
+*   **Threat modeling:** process of identifying assets, their vulnerabilities, and how each is exposed to threats. A typical threat modeling process is performed in a cycle:
+
+    * _Define the scope_
+    * _Identify threats_
+    * _Characterize the environment_
+    * _Analyze threats_
+    * _Mitigate risks_
+    * _Evaluate findings_
+
+    There are multiple methods that can be used, such as:
+
+    * STRIDE
+    * PASTA
+    * Trike
+    * VAST
+
+## 3. Course 6:
+
