@@ -596,7 +596,7 @@ cmp [FILE_1] [FILE_2]
 
 ### 3.1 Introduction to detecton and incident response
 
-#### 3.1.1 The incident response lifecycle
+#### 3.1.1 Incident response operations
 
 
 
