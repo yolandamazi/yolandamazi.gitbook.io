@@ -592,5 +592,11 @@ cmp [FILE_1] [FILE_2]
     * _**Trike:**_ open source methodology and tool that takes a security-centric approach to threat modeling
     * _**VAST (Visual, Agile, and Simple Threat):**_ a framework part of an automated threat-modeling platform called ThreatModeler
 
-## 3. Course 6:
+## 3. Course 6: Sound the Alarm: Detection and Response
+
+### 3.1 Introduction to detecton and incident response
+
+#### 3.1.1 The incident response lifecycle
+
+
 
