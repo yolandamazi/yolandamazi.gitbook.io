@@ -289,7 +289,7 @@ SELECT SUM(column) FROM [table];
   * _**Tiers:**_ a way of measuring the sophistication of an organization's cybersecurity program measured on a scale of 1 to 4. Tier 1 is the lowest score, indicating that a limited set of security controls have been implemented.&#x20;
   * _**Profiles**_**:** pre-made templates that are developed by a team of industry experts, tailored to address the specific risks of an organization or industry, used to help organizations develop a baseline for their cybersecurity plans, or as a way of comparing their current cybersecurity posture to a specific industry standard.
 
-## 2.2 Protect organizational assets
+### 2.2 Protect organizational assets
 
 #### 2.2.1 Safeguard information
 
