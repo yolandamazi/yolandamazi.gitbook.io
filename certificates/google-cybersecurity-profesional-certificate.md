@@ -436,4 +436,8 @@ cmp [FILE_1] [FILE_2]
   * _**Software and data integrity failures:**_ are instances when updates or patches are inadequately reviewed before implementation
   * _**Security logging and monitoring failures**_
   * _**Server-side request forgery:** &#x77;_&#x68;en you use a hyperlink or click a button on a website, a request is sent to a server that should validate who you are, fetch the appropriate data, and then return it to you
+* **OSINT:** collection and analysis of information from publicly available sources to generate usable intelligence
+* **Information:** refers to the collection of raw data or facts about a specific subject
+* **Intelligence:** refers to the analysis of information to produce knowledge or insights that can be used to support decision-making
+* **Information security (InfoSec):** the practice of keeping data in all states away from unauthorized users
 
