@@ -423,7 +423,12 @@ cmp [FILE_1] [FILE_2]
   * _**Automate Security Testing Everywhere:**_ make automated security scans and tests a fundamental part of your build and deployment process (SAST, Software Composition Analysis (SCA), and DAST are essential)
   * _**Keep Dependencies Updated:**_ maintain a current inventory of all third-party dependencies, libraries, and CI/CD plugins. Regularly update these components to patch security vulnerabilities (CVEs) (Dependabot    &#x20;and    &#x20;Snyk    )
   * _**Secure Secrets Management:**_ never hardcode sensitive information in your code or pipeline configurations, dedicated secrets management tools (HashiCorp Vault, AWS Secrets Manager)
-* **Defense in depth:** a layered approach to vulnerability management that reduces risk protecting assets by surrounding them with multiple layers of protection.
+* **Defense in depth:** a layered approach to vulnerability management that reduces risk protecting assets by surrounding them with multiple layers of protection. The five attack surfaces are:
+  1. **Perimeter layer**, like authentication systems that validate user access
+  2. **Network layer**, which is made up of technologies like network firewalls and others
+  3. **Endpoint layer**, which describes devices on a network, like laptops, desktops, or servers
+  4. **Application layer**, which involves the software that users interact with
+  5. **Data layer**, which includes any information that’s stored, in transit, or in use
 * **OWASP:** an open platform that security professionals from around the world use to share information, tools, and events that are focused on securing the web.
 * **The OWASP Top 10**: a list to spread awarreness of the web's most targeted vulnerabilities. The most regularly listed vulnerabilities that appear in their rankings to know about:
   * _**Broken access control:**_ unauthorized information disclosure, modification, or destruction
@@ -436,8 +441,37 @@ cmp [FILE_1] [FILE_2]
   * _**Software and data integrity failures:**_ are instances when updates or patches are inadequately reviewed before implementation
   * _**Security logging and monitoring failures**_
   * _**Server-side request forgery:** &#x77;_&#x68;en you use a hyperlink or click a button on a website, a request is sent to a server that should validate who you are, fetch the appropriate data, and then return it to you
-* **OSINT:** collection and analysis of information from publicly available sources to generate usable intelligence
+*   **OSINT:** collection and analysis of information from publicly available sources to generate usable intelligence. It an be used to generate intelligence:
+
+    * To provide insights into cyber attacks
+    * To detect potential data exposures
+    * To evaluate existing defenses
+    * To identify unknown vulnerabilities
+
+    A few examples of tools that you can explore:
+
+    * _**VirusTotal**_**&#xD;:** a service that allows anyone to analyze suspicious files, domains, URLs, and IP addresses for malicious content.
+    * _**MITRE ATT\&CK®**_      : a knowledge base of adversary tactics and techniques based on real-world observations.
+    * _**OSINT Framework**_      : a web-based interface where you can find OSINT tools for almost any kind of source or platform.
+    * _**Have I been Pwned**_      : a tool that can be used to search for breached email accounts.
 * **Information:** refers to the collection of raw data or facts about a specific subject
 * **Intelligence:** refers to the analysis of information to produce knowledge or insights that can be used to support decision-making
-* **Information security (InfoSec):** the practice of keeping data in all states away from unauthorized users
 
+#### 2.3.2 Identify system vulnerabilities
+
+* **Vulnerability assessment:** the internal review process of an organization's security systems
+* **Vulnerability scanner:** software that automatically compares known vulnerabilities and exposures against the technologies on the network, and they are meant to be non-intrusive, they just scan a a surface and alert any potentially unlocked door in the systems. They can be:
+  * _**External:**_ tests the perimeter layer outside of the internal network. They analyze outward facing systems, like websites and firewalls
+  * _**Internal:**_ starts from the opposite end by examining an organization's internal systems
+  * _**Authenticated**_**:** test a system by logging in with a real user account or even with an admin account
+  * _**Unauthenticated**_**:** simulate external threat actors that do not have access to your business resources
+  * _**Limited**_: analyze particular devices on a network, like searching for misconfigurations on a firewall
+  * _**Comprehensive**_: analyze all devices connected to a network, including operating systems, user databases, and more
+* **Patch update:** a software and operating system update that addresses security vulnerabilities within a program or product, and usually contain bug fixes that address common security vulnerabilities and exposures
+* **Manual deployment strategy:** relies on IT departments or users obtaining updates from the developers
+  * _**Advantage**_: control, which can be useful if software updates are not thoroughly tested by developers, leading to instability issues
+  * _**Disadvantage**_: critical updates can be forgotten or disregarded entirely
+* **Automatic deployment strategy:** finding, downloading, and installing updates can be done by the system or application
+  * _**Advantage**_: deployment process is simplified and it also keeps systems and software current with the latest, critical patches
+  * _**Disadvantage**_: instability issues can occur if the patches were not thoroughly tested by the vendor, resulting in performance problems and a poor user experience
+*
