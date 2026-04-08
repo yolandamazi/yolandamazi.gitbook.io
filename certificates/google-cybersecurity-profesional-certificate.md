@@ -531,15 +531,26 @@ cmp [FILE_1] [FILE_2]
 #### 2.4.1 Social engineering
 
 * **Social engineering:** a manipulation technique that exploits human error to gain private information, access, or valuables. These are common types of social engineering to watch out for:
-  * Baiting is a social engineering tactic that tempts people into compromising their security. A common example is USB baiting that relies on someone finding an infected USB drive and plugging it into their device.
-  * Phishing is the use of digital communications to trick people into revealing sensitive data or deploying malicious software. It is one of the most common forms of social engineering, typically performed via email.
-  * Quid pro quo is a type of baiting used to trick someone into believing that they’ll be rewarded in return for sharing access, information, or money. For example, an attacker might impersonate a loan officer at a bank and call customers offering them a lower interest rate on their credit card. They'll tell the customers that they simply need to provide their account details to claim the deal.
-  * Tailgating is a social engineering tactic in which unauthorized people follow an authorized person into a restricted area. This technique is also sometimes referred to as piggybacking.
-  * Watering hole is a type of attack when a threat actor compromises a website frequently visited by a specific group of users. Oftentimes, these watering hole sites are infected with malicious software. An example is the Holy Water attack of 2020 that infected various religious, charity, and volunteer websites.
+  * _**Baiting**_**:** tempts people into compromising their security
+  * _**Phishing**_**:** the use of digital communications to trick people into revealing sensitive data or deploying malicious software. There are five common types of phishing that every security analyst should know:
+    * _Email phishing:_ a type of attack sent via email in which threat actors send messages pretending to be a trusted person or entity
+    * _Smishing:_ a type of phishing that uses SMS
+    * _Vishing:_ voice calls or voice messages to trick targets into providing personal information over the phone
+    * _Spear phishing:_ a subset of email phishing in which specific people are purposefully targeted.
+    * _Whaling:_ a category of spear phishing attempts that are aimed at high-ranking executives in an organization
+  * _**Quid pro quo:**_ a type of baiting used to trick someone into believing that they’ll be rewarded in return for sharing access, information, or money
+  * _**Tailgating**_**,** sometimes referred to as piggybackin&#x67;**:** unauthorized people follow an authorized person into a restricted area
+  * _**Watering hole**_**:** a threat actor compromises a website frequently visited by a specific group of users
 
 #### 2.4.2 Malware
 
-
+* **Malware**: software designed to harm devices or networks. Some different types are:
+  * _**Virus**_: malicious code written to interfere with computer operations and cause damage to data and software
+  * _**Worm**_: malware that can duplicate and spread itself across systems on its own, must be installed by the target user and can also be spread with tactics like malicious email
+  * _**Trojan (horse)**_: malware that looks like a legitimate file or program. Attackers deliver them hidden in file and application downloads
+  * _**Advertising-supported software**_, or _**adware**_, a type of legitimate software that is sometimes used to display digital advertisements in applications
+    * _Potentially Unwanted Application (PUA)_: sub-category of adware, which is a type of unwanted software that is bundled in with legitimate programs which might display ads, cause device slowdown, or install other software
+      * _Spyware:_ also considered as PUA, malware commonly hidden in bundleware that's used to gather and sell information without consent
 
 #### 2.4.3 Web-based exploits
 
