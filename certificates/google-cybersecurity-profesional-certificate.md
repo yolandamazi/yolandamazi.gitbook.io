@@ -474,4 +474,75 @@ cmp [FILE_1] [FILE_2]
 * **Automatic deployment strategy:** finding, downloading, and installing updates can be done by the system or application
   * _**Advantage**_: deployment process is simplified and it also keeps systems and software current with the latest, critical patches
   * _**Disadvantage**_: instability issues can occur if the patches were not thoroughly tested by the vendor, resulting in performance problems and a poor user experience
-*
+* **Penetration test:** a simulated attack that helps identify vulnerabilities in systems, networks, websites, applications, and processes, which involves using the same tools and techniques as malicious actors in order to mimic a real life attack. It exploits those weaknesses to determine the potential consequences if the system breaks or gets broken into by a threat actor. There are three common penetration testing strategies:
+  * _**Open-box testing**_ (also known as internal, full knowledge, white-box, and clear-box penetration testing): when the tester has the same privileged access that an internal developer would have
+  * _**Closed-box testing**_ (also known as external, black-box, or zero knowledge penetration testing): is when the tester has little to no access to internal system, and here testers tend to produce the most accurate simulations of a real-world attack.
+  * _**Partial knowledge testing**_ (also known as gray-box testing): when the tester has limited access and knowledge of an internal system
+
+#### 2.3.3 Cyber attacker mindset
+
+*   **Threat actor:** any person or group who presents a security risk, referring to people inside and outside an organization, individuals who intentionally pose a threat, and those that accidentally put assets at risk. They are normally divided into five categories based on their motivations:
+
+    * _**Competitors:**_ rival companies who pose a threat because they might benefit from leaked information
+    * _**State actors:**_ government intelligence agencies
+    * _**Criminal syndicates:**_ organized groups of people who make money from criminal activity
+    * _**Insider threats:**_ any individual who has or had authorized access to an organization’s resources, including employees who accidentally compromise assets or individuals who purposefully put them at risk for their own benefit
+    * _**Shadow IT:**_ individuals who use technologies that lack IT governance
+
+    They gain access through one of these attack vector categories:
+
+    * **Direct access**, referring to instances when they have physical access to a system
+    * **Removable media**, which includes portable hardware
+    * **Social media platforms** that are used for communication and content sharing
+    * **Email**, including both personal and business accounts
+    * **Wireless networks** on premises
+    * **Cloud services** usually provided by third-party organizations
+    * **Supply chains** like third-party vendors that can present a backdoor into systems
+* **Hacker**: any person who uses computers to gain unauthorized access to computer systems, networks, or data. There are types of individuals based on their intent:
+  * _**Unauthorized hackers**_ (also known as malicious hackers): an individual who uses their programming skills to commit crimes
+  * _**Authorized, or ethical, hackers**_: individuals who use their programming skills to improve an organization's overall security, including internal members of a security team who are concerned with testing and evaluating systems to secure the attack surface and external security vendors and freelance hackers that some companies incentivize to find and report vulnerabilities, a practice called bug bounty programs.
+  * _**Semi-authorized hackers**_: individuals who might violate ethical standards, but are not considered malicious. the intentions of these types of threat actors is often to expose security risks that should be addressed before a malicious hacker finds them.
+    * _Hacktivist_: person who might use their skills to achieve a political goal
+* **Advanced persistent threat (APT):** instances when a threat actor maintains unauthorized access to a system for an extended period of time
+* **Brute force attacks:** a trial-and-error process of discovering private information. Some common brute forcing tools:
+  * _**Aircrack-ng**_
+  * _**Hashcat**_
+  * _**John the Ripper**_
+  * _**Ophcrack**_
+  * _**THC Hydra**_
+* **Simple brute force attacks:** an approach in which attackers guess a user's login credentials
+* **Dictionary attacks:** attackers use a list of commonly used credentials to access a system
+* **Reverse brute force attacks:** they start with a single credential and try it in various systems until a match is found
+* **Credential stuffing:** a tactic in which attackers use stolen login credentials from previous data breaches to access user accounts at another organization
+  * _**Pass the hash:**_ a specialized type of credential stuffing where they reuse stolen, unsalted hashed credentials to trick an authentication system into creating a new authenticated user session on the network
+* **Hashing**: converts information into a unique value that can then be used to determine its integrity
+* **CAPTCHA** (Completely Automated Public Turing test to tell Computers and Humans Apart): asks users to complete a simple test that proves they are human and not software that’s trying to brute force a password. There are two types:
+  * One scrambles and distorts a randomly generated sequence of letters and/or numbers and asks users to enter them into a text box
+  * The other test asks users to match images to a randomly generated word
+* **Password policy  :** when organizations use these managerial controls to standardize good password practices across their business
+* **Bug bounty:** programs that encourage freelance hackers to find and report vulnerabilities
+* **Common Vulnerabilities and Exposures (CVE®) list:** openly accessible dictionary of known vulnerabilities and exposures
+* **Common Vulnerability Scoring System (CVSS):** a measurement system that scores the severity of a vulnerability
+* **CVE Numbering Authority (CNA):** an organization that volunteers to analyze and distribute information on eligible CVEs
+* **Zero-day:** an exploit that was previously unknown
+
+### 2.4 Threats to asset security
+
+#### 2.4.1 Social engineering
+
+* **Social engineering:** a manipulation technique that exploits human error to gain private information, access, or valuables. These are common types of social engineering to watch out for:
+  * Baiting is a social engineering tactic that tempts people into compromising their security. A common example is USB baiting that relies on someone finding an infected USB drive and plugging it into their device.
+  * Phishing is the use of digital communications to trick people into revealing sensitive data or deploying malicious software. It is one of the most common forms of social engineering, typically performed via email.
+  * Quid pro quo is a type of baiting used to trick someone into believing that they’ll be rewarded in return for sharing access, information, or money. For example, an attacker might impersonate a loan officer at a bank and call customers offering them a lower interest rate on their credit card. They'll tell the customers that they simply need to provide their account details to claim the deal.
+  * Tailgating is a social engineering tactic in which unauthorized people follow an authorized person into a restricted area. This technique is also sometimes referred to as piggybacking.
+  * Watering hole is a type of attack when a threat actor compromises a website frequently visited by a specific group of users. Oftentimes, these watering hole sites are infected with malicious software. An example is the Holy Water attack of 2020 that infected various religious, charity, and volunteer websites.
+
+#### 2.4.2 Malware
+
+
+
+#### 2.4.3 Web-based exploits
+
+
+
+#### 2.4.4 Threat modeling
