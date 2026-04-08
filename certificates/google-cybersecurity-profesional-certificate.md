@@ -538,6 +538,7 @@ cmp [FILE_1] [FILE_2]
     * _Vishing:_ voice calls or voice messages to trick targets into providing personal information over the phone
     * _Spear phishing:_ a subset of email phishing in which specific people are purposefully targeted.
     * _Whaling:_ a category of spear phishing attempts that are aimed at high-ranking executives in an organization
+    * _Angler phishing:_ a technique where attackers impersonate customer service representatives on social media
   * _**Quid pro quo:**_ a type of baiting used to trick someone into believing that they’ll be rewarded in return for sharing access, information, or money
   * _**Tailgating**_**,** sometimes referred to as piggybackin&#x67;**:** unauthorized people follow an authorized person into a restricted area
   * _**Watering hole**_**:** a threat actor compromises a website frequently visited by a specific group of users
@@ -561,6 +562,10 @@ cmp [FILE_1] [FILE_2]
 
 #### 2.4.3 Web-based exploits
 
+* **Cross-Site Scripting (XSS):** attacks specifically target websites, web applications, or users interacting with them
+  * _**DOM-based XSS attack:**_ an instance when malicious script exists in the webpage a browser loads
+  * _**Stored XSS attack:**_ an instance when malicious script is injected directly on the server
+* **Session hijacking:** taking over a user's active session by stealing their session ID, allowing them to act as the legitimate user; it that targets the communication between a user and a web server
 * **SQL injection**: attack that executes unexpected queries on a database. There are three main categories of SQL injection:
   * _**In-band:**_ uses the same communication channel to launch the attack and gather the results
   * _**Out-of-band:**_ uses a different communication channel to launch the attack and gather the results
@@ -582,10 +587,10 @@ cmp [FILE_1] [FILE_2]
 
     There are multiple methods that can be used, such as:
 
-    * STRIDE
-    * PASTA
-    * Trike
-    * VAST
+    * _**STRIDE:**_ threat-modeling framework developed by Microsoft, commonly used to identify vulnerabilities in six specific attack vectors.
+    * _**PASTA (Process of Attack Simulation and Threat Analysis):**_ risk-centric threat modeling process developed by two OWASP leaders and supported by a cybersecurity firm called VerSprite, which main focus is to discover evidence of viable threats and represent this information as a model.
+    * _**Trike:**_ open source methodology and tool that takes a security-centric approach to threat modeling
+    * _**VAST (Visual, Agile, and Simple Threat):**_ a framework part of an automated threat-modeling platform called ThreatModeler
 
 ## 3. Course 6:
 
