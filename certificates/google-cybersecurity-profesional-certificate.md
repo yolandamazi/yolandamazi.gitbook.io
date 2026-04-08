@@ -551,9 +551,16 @@ cmp [FILE_1] [FILE_2]
   * _**Advertising-supported software**_, or _**adware**_, a type of legitimate software that is sometimes used to display digital advertisements in applications
     * _Potentially Unwanted Application (PUA)_: sub-category of adware, which is a type of unwanted software that is bundled in with legitimate programs which might display ads, cause device slowdown, or install other software
       * _Spyware:_ also considered as PUA, malware commonly hidden in bundleware that's used to gather and sell information without consent
+      * _Scareware_: employs tactics to frighten users into infecting their own device by displaying fake warnings that appear to come from legitimate companies
+  * _**Fileless malware:**_ uses legitimate programs that are already installed to infect a computer and it resides in memory where the malware never touches the hard drive
+  * _**Rootkit:**_ malware that provides remote, administrative access to a computer, used to open a backdoor to systems, allowing them to install other forms of malware or to conduct network security attacks. It's often spread by a combination of two components:
+    * _Dropper:_ a malware that comes packed with malicious code which is delivered and installed onto a target system
+    * _Loader_: a malware that downloads strains of malicious code from an external source and installs them onto a target system
+  * _**Botnet**_ (ro**bot** **net**work): collection of computers infected by malware that are under the control of a single threat actor, known as the “bot-herder”
+  * _**Ransomware:**_ malicious attack where threat actors encrypt an organization's data and demand payment to restore access
 
 #### 2.4.3 Web-based exploits
 
-
+*
 
 #### 2.4.4 Threat modeling
