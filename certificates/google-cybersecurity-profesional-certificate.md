@@ -601,7 +601,6 @@ cmp [FILE_1] [FILE_2]
 * **False negative**: A state where the presence of a threat is not detected
 * **False positive:** An alert that incorrectly detects the presence of a threat
 * **Incident:** An occurrence that actually or imminently jeopardizes, without lawful authority, the confidentiality, integrity, or availability of information or an information system; or constitutes a violation or imminent threat of violation of law, security policies, security procedures, or acceptable use policies
-* **Incident response plan:** A document that outlines the procedures to take in each step of incident response
 * **Intrusion detection system (IDS):** An application that monitors system activity and alerts on possible intrusions
 * **Intrusion prevention system (IPS):** An application that monitors system activity for intrusive activity and takes action to stop the activity
 * **National Institute of Standards and Technology (NIST) Incident Response Lifecycle:** A framework for incident response consisting of:
@@ -633,3 +632,22 @@ cmp [FILE_1] [FILE_2]
 * **tcpdump:** A command-line network protocol analyzer
 * **Wireshark:** An open-source network protocol analyzer
 
+### 3.3 Incident investigation and response
+
+* **Analysis:** The investigation and validation of alerts&#x20;
+* **Broken chain of custody:** Inconsistencies in the collection and logging of evidence in the chain of custody
+* **Chain of custody:** The process of documenting evidence possession and control during an incident lifecycle
+* **Containment:** The act of limiting and preventing additional damage caused by an incident
+* **Crowdsourcing:** The practice of gathering information using public input and collaboration
+* **Detection:** The prompt discovery of security events
+* **Eradication:** The complete removal of the incident elements from all affected systems
+* **Honeypot:** A system or resource created as a decoy vulnerable to attacks with the purpose of attracting potential intruders
+* **Indicators of attack (IoA):** The series of observed events that indicate a real-time incident
+* **Recovery:** The process of returning affected systems back to normal operations
+* **Resilience**: The ability to prepare for, respond to, and recover from disruptions
+* **Threat hunting:** The proactive search for threats on a network
+* **Threat intelligence:** Evidence-based threat information that provides context about existing or emerging threats
+* **Triage**: The prioritizing of incidents according to their level of importance or urgency
+* **VirusTotal:** A service that allows anyone to analyze suspicious files, domains, URLs, and IP addresses for malicious content
+
+<br>
