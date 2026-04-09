@@ -594,9 +594,43 @@ cmp [FILE_1] [FILE_2]
 
 ## 3. Course 6: Sound the Alarm: Detection and Response
 
-### 3.1 Introduction to detecton and incident response
+### 3.1 Introduction to detection and incident response
 
-#### 3.1.1 Incident response operations
+* **Computer security incident response teams (CSIRT):** A specialized group of security professionals that are trained in incident management and response&#x20;
+* **Endpoint detection and response (EDR):** An application that monitors an endpoint for malicious activity
+* **False negative**: A state where the presence of a threat is not detected
+* **False positive:** An alert that incorrectly detects the presence of a threat
+* **Incident:** An occurrence that actually or imminently jeopardizes, without lawful authority, the confidentiality, integrity, or availability of information or an information system; or constitutes a violation or imminent threat of violation of law, security policies, security procedures, or acceptable use policies
+* **Incident response plan:** A document that outlines the procedures to take in each step of incident response
+* **Intrusion detection system (IDS):** An application that monitors system activity and alerts on possible intrusions
+* **Intrusion prevention system (IPS):** An application that monitors system activity for intrusive activity and takes action to stop the activity
+* **National Institute of Standards and Technology (NIST) Incident Response Lifecycle:** A framework for incident response consisting of:
+  * Preparation
+  * Detection and Analysis
+  * Containment
+  * Eradication and Recovery
+  * Post-incident activity
+* **Playbook:** A manual that provides details about any operational action
+* **Security information and event management (SIEM):** An application that collects and analyzes log data to monitor critical activities in an organization&#x20;
+* **Security operations center (SOC):** An organizational unit dedicated to monitoring networks, systems, and devices for security threats or attacks
+* **Security orchestration, automation, and response (SOAR):** A collection of applications, tools, and workflows that uses automation to respond to security events
+* **True negative:** A state where there is no detection of malicious activity
+* **True positive** An alert that correctly detects the presence of an attack
 
+### 3.2 Network monitoring and analysis
 
+* **Command and control (C2):** The techniques used by malicious actors to maintain communications with compromised systems
+* **Command-line interface (CLI):** A text-based user interface that uses commands to interact with the computer
+* **Data exfiltration:** Unauthorized transmission of data from a system
+* **Data packet:** A basic unit of information that travels from one device to another within a network
+* **Indicators of compromise (IoC):** Observable evidence that suggests signs of a potential security incident
+* **Internet Protocol (IP):** A set of standards used for routing and addressing data packets as they travel between devices on a network
+* **Media Access Control (MAC) Address:** A unique alphanumeric identifier that is assigned to each physical device on a network
+* **Network data:** The data that’s transmitted between devices on a network&#x20;
+* **Network protocol analyzer (packet sniffer):** A tool designed to capture and analyze data traffic within a network
+* **Network traffic:** The amount of data that moves across a network&#x20;
+* **Network Interface Card (NIC):** Hardware that connects computers to a network
+* **Packet capture (p-cap):** A file containing data packets intercepted from an interface or network
+* **tcpdump:** A command-line network protocol analyzer
+* **Wireshark:** An open-source network protocol analyzer
 
