@@ -650,4 +650,6 @@ cmp [FILE_1] [FILE_2]
 * **Triage**: The prioritizing of incidents according to their level of importance or urgency
 * **VirusTotal:** A service that allows anyone to analyze suspicious files, domains, URLs, and IP addresses for malicious content
 
-<br>
+### 3.4 Network traffic and logs using IDS ans SIEM tools
+
+*
