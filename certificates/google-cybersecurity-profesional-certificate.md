@@ -607,8 +607,7 @@ cmp [FILE_1] [FILE_2]
 * **National Institute of Standards and Technology (NIST) Incident Response Lifecycle:** A framework for incident response consisting of:
   * Preparation
   * Detection and Analysis
-  * Containment
-  * Eradication and Recovery
+  * Containment, Eradication and Recovery
   * Post-incident activity
 * **Playbook:** A manual that provides details about any operational action
 * **Security information and event management (SIEM):** An application that collects and analyzes log data to monitor critical activities in an organization&#x20;
