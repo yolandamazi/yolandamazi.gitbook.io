@@ -686,7 +686,7 @@ cmp [FILE_1] [FILE_2]
   * _**Name**_
   * _**Severity**_
   * _**Extension**_
-* **Host-based intrusion detection system (HIDS):** an application that monitors the activity of the host on which it's installed, installed as an agent on a host, also known as an endpoint, which is any device connected to a network like a computer or a server
+* **Host-based intrusion detection system (HIDS):** an application that monitors the activity of the host on which it's installed as an agent on a host, also known as an endpoint, which is any device connected to a network like a computer or a server
 * **Network-based intrusion detection system (NIDS):** an application that collects and monitors network traffic and network data, is installed on devices located at specific parts of the network that you want to monitor, and it inspects network traffic from different devices on the network
 * **Signature analysis** (signature-based analysis): a detection method that is used to find events of interest
   * _**Advantages**_
@@ -702,9 +702,25 @@ cmp [FILE_1] [FILE_2]
   * _**Disadvantages**_
     * _High rate of false positives._
     * _Pre-existing compromise._
-* **Suricata  :** open-source intrusion detection system, intrusion prevention system, and network analysis tool. Main ways that it can be used:
-  * Intrusion detection system (IDS): As a network-based IDS, Suricata can monitor network traffic and alert on suspicious activities and intrusions. Suricata can also be set up as a host-based IDS to monitor the system and network activities of a single host like a computer.
-  * Intrusion prevention system (IPS): Suricata can also function as an intrusion prevention system (IPS) to detect and block malicious activity and traffic. Running Suricata in IPS mode requires additional configuration such as enabling IPS mode.
-  * Network security monitoring (NSM): In this mode, Suricata helps keep networks safe by producing and saving relevant network logs. Suricata can analyze live network traffic, existing packet capture files, and create and save full or conditional packet captures. This can be useful for forensics, incident response, and for testing signatures. For example, you can trigger an alert and capture the live network traffic to generate traffic logs, which you can then analyze to refine detection signatures.
-    *
+*   **Suricata    :** open-source intrusion detection system, intrusion prevention system, and network analysis tool. Main ways that it can be used:
+
+    * **Intrusion detection system (IDS):** it can monitor network traffic and alert on suspicious activities and intrusions, and also be set up as a host-based IDS to monitor the system and network activities of a single host like a computer.
+    * **Intrusion prevention system (IPS):** function as an intrusion prevention system (IPS) to detect and block malicious activity and traffic.
+    * **Network security monitoring (NSM):** can analyze live network traffic, existing packet capture files, and create and save full or conditional packet captures.
+
+    There are two log files generated when alerts are triggered:
+
+    * **eve.json**: standard Suricata log file that contains detailed information and metadata about the events and alerts generated stored in JSON format, and is used for more detailed analysis and is considered to be a better file format for log parsing and SIEM log ingestion.
+    * **fast.log**: to record minimal alert information including basic IP address and port details about the network traffic and used for basic logging and alerting and is considered a legacy file format.
+* **Signatures** (on Suricata): to detect and alert on specific malicious activity.&#x20;
+* **Signatures analysis:** a detection method used to find events of interest, end they consist of three components:
+  * **Action**: describes the action to take if network or system activity matches the signature
+  * **Header**: includes network traffic information like source and destination IP addresses, source and destination ports, protocol, and traffic direction.
+  * **Rule options**: provide you with different options to customize signatures.
+* **Rules** (on Suricata): can also be used to provide additional context and visibility into systems and networks, helping to identify potential security threats or vulnerabilities.
+*   **Configuration file:** used to configure the settings of an application, and let you customize exactly how you want your IDS to interact with the rest of your environment.
+
+
+
+
 
