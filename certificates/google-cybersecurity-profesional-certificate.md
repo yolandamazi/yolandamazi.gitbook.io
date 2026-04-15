@@ -652,4 +652,54 @@ cmp [FILE_1] [FILE_2]
 
 ### 3.4 Network traffic and logs using IDS ans SIEM tools
 
-*
+* **JavaScript Object Notation (JSON):** file format that is used to store and transmit data in web technologies and used in cloud environments. It's components include:
+  * _**Key-value pairs:**_ set of data that represents a key and its corresponding value, consisting of a key followed by a colon, and then followed by a value
+  * _**Commas:**_ used to separate data
+  * _**Double quotes:**_ to enclose a string, but if it is numbers is not enclosed in quotes.
+  * _**Curly brackets:**_ enclose an object, which is a data type that stores data in a comma-separated list of key-value pairs and used to describe multiple properties for a given key
+  * _**Square brackets:**_ to enclose an array, which is a data type that stores data in a comma-separated ordered list
+* **Syslog:** standard for logging and transmitting data used to refer to any of its capabilities:
+  * _**Protocol:**_ to transport logs to a centralized log server for log management, using port 514 for plaintext logs and port 6514 for encrypted logs
+  * _**Service:**_ a log forwarding service that consolidates logs from multiple sources into a single location, which works by receiving and then forwarding any syslog log entries to a remote server
+  * _**Log format:**_ native logging format used in Unix® systems, which consists of three components:
+    * _Header:_ contains details like:
+      * <mark style="color:$primary;">Timestamp</mark>
+      * <mark style="color:$primary;">Hostname</mark>
+      * <mark style="color:$primary;">Application</mark>
+      * <mark style="color:$primary;">Message ID</mark>
+    * _Structured-data:_ contains additional logging information, that is enclosed in square brackets and structured in key-value pairs
+    * _Message:_ contains a detailed log message about the event
+  * _**Priority (PRI)    :**_ indicates the urgency of the logged event and is contained with angle brackets, where the lower the priority level, the more urgent the event is
+* **XML (eXtensible Markup Language):** language and a format used for storing and transmitting data. XML is a native file format used in Windows systems. XML syntax uses the following:
+  * _**Tags:**_ to store and identify data. They are pairs that must contain a start tag and an end tag, where the start tag encloses data with angle brackets, whereas the end of a tag encloses data with angle brackets and a forward slash
+  * _**Elements:**_ include both the data contained inside of a tag and the tags itself and they must contain at least one root element, which contain other elements that sit underneath them, known as child elements.
+  * _**Attributes:**_ to provide additional information about elements, included as the second part of the tag itself and must always be quoted using either single or double quotes.
+* **CSV (Comma Separated Value):** the position of the data corresponds to its field name, but the field names themselves might not be included in the log
+* **Common Event Format (CEF):** log format that uses key-value pairs to structure data and identify fields and their corresponding values. Anything in the Extension part must be written in a key-value format. Here is a breakdown of the fields:
+  * _**Syslog Timestamp**_
+  * _**Syslog Hostname**_
+  * _**Version**_
+  * _**Device Vendor**_
+  * _**Device Product**_
+  * _**Device Version**_
+  * _**Signature ID**_
+  * _**Name**_
+  * _**Severity**_
+  * _**Extension**_
+* **Host-based intrusion detection system (HIDS):** an application that monitors the activity of the host on which it's installed, installed as an agent on a host, also known as an endpoint, which is any device connected to a network like a computer or a server
+* **Network-based intrusion detection system (NIDS):** an application that collects and monitors network traffic and network data, is installed on devices located at specific parts of the network that you want to monitor, and it inspects network traffic from different devices on the network
+* **Signature analysis** (signature-based analysis): a detection method that is used to find events of interest
+  * _**Advantages**_
+    * _Low rate of false positives._
+  * _**Disadvantages**_
+    * _Signatures can be evaded._
+    * _Signatures require updates._
+    * _Inability to detect unknown threats._
+* **Signature**: a pattern that is associated with malicious activity, and also can contain specific patterns like a sequence of binary numbers, bytes, or even specific data like an IP address.
+* **Anomaly-based analysis:** a detection method that identifies abnormal behavior. There are two phases to anomaly-based analysis: a training phase and a detection phase. In the training phase, a baseline of normal or expected behavior must be established. Baselines are developed by collecting data that corresponds to normal system behavior. In the detection phase, the current system activity is compared against this baseline. Activity that happens outside of the baseline gets logged, and an alert is generated.
+  * _**Advantages**_
+    * _Ability to detect new and evolving threats._
+  * _**Disadvantages**_
+    * _High rate of false positives._
+    * _Pre-existing compromise._
+
