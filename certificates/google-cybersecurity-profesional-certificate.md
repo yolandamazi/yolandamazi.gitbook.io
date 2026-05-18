@@ -650,7 +650,7 @@ cmp [FILE_1] [FILE_2]
 * **Triage**: The prioritizing of incidents according to their level of importance or urgency
 * **VirusTotal:** A service that allows anyone to analyze suspicious files, domains, URLs, and IP addresses for malicious content
 
-### 3.4 Network traffic and logs using IDS ans SIEM tools
+### 3.4 Network traffic and logs using IDS and SIEM tools
 
 * **JavaScript Object Notation (JSON):** file format that is used to store and transmit data in web technologies and used in cloud environments. It's components include:
   * _**Key-value pairs:**_ set of data that represents a key and its corresponding value, consisting of a key followed by a colon, and then followed by a value
@@ -718,7 +718,19 @@ cmp [FILE_1] [FILE_2]
   * **Header**: includes network traffic information like source and destination IP addresses, source and destination ports, protocol, and traffic direction.
   * **Rule options**: provide you with different options to customize signatures.
 * **Rules** (on Suricata): can also be used to provide additional context and visibility into systems and networks, helping to identify potential security threats or vulnerabilities.
-*   **Configuration file:** used to configure the settings of an application, and let you customize exactly how you want your IDS to interact with the rest of your environment.
+* **Configuration file:** used to configure the settings of an application, and let you customize exactly how you want your IDS to interact with the rest of your environment.
+* **Normalization:** converts data into a standard format so that data is structured in a consistent way and becomes easier to read and search
+* **SIEM process**: consists of three steps:
+  * **Collect and aggregate data**
+  * **Normalize data**: Event data that's been collected becomes normalized.
+  * **Analyze data**: organize and index the data so it can be analyzed and correlated to identify common patterns that indicate unusual activity.
+* **The collection and aggregation of data step**
+  * **Log ingestion:** process of collecting and importing data from log sources into a SIEM tool. The SIEM creates a copy of the event data it receives and retains it within its own storage to analyze and process the data without directly modifying the original source logs.
+  * **Log forwarders**: software that automate the process of collecting and sending log data.&#x20;
+* **Search Processing Language (SPL)**: Splunk own querying language, which is used to search and retrieve events from indexes using Splunk’s Search & Reporting app.
+* **Piping**: sends the output of one command as the input to another command.
+* **Wazuh**: powerful open source platform designed to collect, aggregate, and analyze massive amounts of security data to help identify and respond to threats.
+*
 
 
 
