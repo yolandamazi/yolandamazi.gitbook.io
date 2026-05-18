@@ -730,9 +730,4 @@ cmp [FILE_1] [FILE_2]
 * **Search Processing Language (SPL)**: Splunk own querying language, which is used to search and retrieve events from indexes using Splunk’s Search & Reporting app.
 * **Piping**: sends the output of one command as the input to another command.
 * **Wazuh**: powerful open source platform designed to collect, aggregate, and analyze massive amounts of security data to help identify and respond to threats.
-*
-
-
-
-
-
+* **Access Control Lists (ACLs):** sets of rules that network devices use to filter traffic and control who can access specific resources or network segments.
