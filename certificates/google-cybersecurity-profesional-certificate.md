@@ -731,3 +731,8 @@ cmp [FILE_1] [FILE_2]
 * **Piping**: sends the output of one command as the input to another command.
 * **Wazuh**: powerful open source platform designed to collect, aggregate, and analyze massive amounts of security data to help identify and respond to threats.
 * **Access Control Lists (ACLs):** sets of rules that network devices use to filter traffic and control who can access specific resources or network segments.
+
+## 4. Course 7: Automate Cybersecurity Tasks with Python
+
+Since I have previous knowledge on Python. This course has no notes at all.
+
