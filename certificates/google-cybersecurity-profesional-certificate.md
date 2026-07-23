@@ -15,6 +15,8 @@ layout:
     visible: true
   tags:
     visible: true
+  actions:
+    visible: true
 ---
 
 # Google Cybersecurity Profesional Certificate
@@ -731,6 +733,24 @@ cmp [FILE_1] [FILE_2]
 * **Piping**: sends the output of one command as the input to another command.
 * **Wazuh**: powerful open source platform designed to collect, aggregate, and analyze massive amounts of security data to help identify and respond to threats.
 * **Access Control Lists (ACLs):** sets of rules that network devices use to filter traffic and control who can access specific resources or network segments.
+
+- **JavaScript Object Notation (JSON)**: file format that is used to store and transmit data in web technologies and is also commonly used in cloud environments. It contains components from JavaScript including:
+  * _**Key-value pairs:**_ set of data that represents two linked items: a key and its corresponding value. An example is <mark style="color:$primary;">"Alert": "Malware"</mark>.
+  * _**Commas:**_ are used to separate data
+  * _**Double quotes:**_ to enclose text data, known as string, but if it contains numbers is not enclosed
+  * _**Curly brackets:**_ enclose an object, that are often used to describe multiple properties for a given key; which is a data type that stores data in a comma-separated list of key-value pairs. JSON log entries start and end with a curly bracket
+  * _**Square brackets:**_ are used to enclose an array, which is a data type that stores data in a comma-separated ordered list; are useful when you want to store data as an ordered collection
+- **Syslog**: standard for logging and transmitting data, used to refer to any of its capabilities:
+  * _**Protocol**_: used to transport logs to a centralized log server for log management, using port 514 for plaintext logs and port 6514 for encrypted logs
+  * _**Service**_: acts as a log forwarding service that consolidates logs from multiple sources into a single location, and it works by receiving and then forwarding any syslog log entries to a remote server.
+  * _**Log format**_: is the native logging format used in Unix® systems and consists of three components:
+    * _Header:_ contains details like:
+      * <mark style="color:$primary;">Timestamp</mark>
+      * <mark style="color:$primary;">Hostname</mark>
+      * <mark style="color:$primary;">Application</mark>
+      * <mark style="color:$primary;">Message</mark>
+    * _Structured-data:_ contains additional logging information enclosed in square brackets and structured in key-value pairs
+    * _Message:_ contains a detailed log message about the event
 
 ## 4. Course 7: Automate Cybersecurity Tasks with Python
 
