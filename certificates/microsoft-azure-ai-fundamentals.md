@@ -1,6 +1,2 @@
----
-hidden: true
----
-
-# IBM Cybersecurity Certificate
+# Microsoft Azure AI Fundamentals
 
