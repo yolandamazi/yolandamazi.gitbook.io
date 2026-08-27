@@ -30,14 +30,13 @@ layout:
 
 ### — who am i?
 
-* I'm a student pursuing a Bachelor's degree in <mark style="color:$primary;">Computer Engineering</mark> at the Escuela Politécnica Superior @ UAH.
-* My main interest lie in <mark style="color:$primary;">cybersecurity</mark>, focusing on deepening my knowledge and practical skills.
-* Currently working as a <mark style="color:$primary;">Junior Analyst</mark> in Crisis & Incident Response @ Deloitte T\&T Cyber.
+* <mark style="color:$primary;">Computer Engineering</mark> Graduate @ Universidad de Alcalá de Henares.
+* My main interest lie in <mark style="color:$primary;">data science, AI & ML</mark>, focusing on deepening my knowledge and practical skills.
 * Check out my [resume](https://drive.google.com/file/d/1HzELR5w2EfgwZzcS-MZo0roDEhNj0zI5/view?usp=sharing) for more details about <mark style="color:$primary;">my background</mark> — I’m always open to feedback and suggestions!
 
 ### — what's my purpose?
 
-Documenting what I’m actively learning and building as I grow through my journey in cybersecurity and engineering. Right now, I’m focused on studying for cybersecurity certifications, strengthening my technical foundations, and developing the hands-on skills needed in the security field. I will write about the certificates I’m pursuing, the concepts I’m studying, the tools I’m practicing, and my progress as I train to become better at solving machines and understanding systems more deeply. Additionally, I’ll track my language studies, including reinforcing my English skills and learning French as a new language. This helps me stay consistent, reflect on my growth, improve my language skills, and keep a clear record of everything I learn as I continue developing in the cybersecurity world.
+Documenting what I’m actively learning and building as I grow through my journey in data science & machine learning. Right now, I’m focused on studying for certifications, strengthening my technical foundations, and developing the hands-on skills needed in the field. I will write about the certificates I’m pursuing, the concepts I’m studying, the tools I’m practicing, and my progress as I train to become better. Additionally, I’ll track my language studies, including reinforcing my English skills and learning French as a new language. This helps me stay consistent, reflect on my growth, improve my language skills, and keep a clear record of everything I learn as I continue developing in the AI world.
 
 ### — behind the writing
 
