@@ -31,8 +31,8 @@ layout:
 ### — who am i?
 
 * <mark style="color:$primary;">Computer Engineering</mark> Graduate @ Universidad de Alcalá.
-* Check out my resume for more details about my background — I’m always open to feedback and suggestions!
-* My main interest lie in <mark style="color:$primary;">data science, AI & ML</mark>, focusing on deepening my knowledge and practical skills.
+* My main interest lie in data science, AI & ML, focusing on deepening my knowledge and practical skills.
+* Check out my [resume](https://drive.google.com/file/d/1zLjkUFybXTQZe2bvmpLaSdExhPaP_PbU/view?usp=sharing) for more details about my background — I’m always open to feedback and suggestions!
 
 ### — what's my purpose?
 
