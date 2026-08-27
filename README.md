@@ -44,7 +44,7 @@ You might notice I switch between Spanish and English across the blog. There’s
 
 ### — contact
 
-[Linkedin](https://www.linkedin.com/in/yolanda-omoregbee-amazi/) | [GitHub](https://github.com/yolandamazi) | [Email](mailto:yolanda.omoregbee@gmail.es)&#x20;
+[Linkedin](https://www.linkedin.com/in/yolanda-omoregbee-amazi/) | [GitHub](https://github.com/yolandamazi) | [Email](mailto:yolanda.omoregbee@gmail.com)&#x20;
 
 ***
 
