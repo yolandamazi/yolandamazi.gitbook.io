@@ -1,5 +1,5 @@
 ---
-hidden: true
+icon: mug-tea-saucer
 ---
 
 # ENG
