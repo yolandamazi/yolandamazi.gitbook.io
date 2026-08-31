@@ -32,7 +32,7 @@ layout:
 
 * <mark style="color:$primary;">Computer Engineering</mark> Graduate @ Universidad de Alcalá.
 * My main interest lie in <mark style="color:$primary;">data science, AI & ML</mark>, focusing on deepening my knowledge and practical skills.
-* Check out my [resume](https://drive.google.com/file/d/1oZUiywWpfbcs6bWbyFOnNAxN9QUsY__M/view?usp=sharing) for more details about my background — I’m always open to feedback and suggestions!
+* Check out my [resume](https://drive.google.com/file/d/1egFWbP3MghTvvp_npsJLvr-hkNCSIoyw/view?usp=sharing) for more details about my background — I’m always open to feedback and suggestions!
 
 ### — what's my purpose?
 
