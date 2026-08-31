@@ -1,7 +1,6 @@
 ---
-hidden: true
 icon: cloud-binary
 ---
 
-# Untitled
+# Aplicación para la Integración y Sincronización Temporal de Señales Biomédicas Multimodales
 
