@@ -4,7 +4,8 @@
 
 ## — My Notes
 
-* [Git & GitHub](my-notes/git-and-github.md)
+* [Git & GitHub](my-notes/git-and-github/README.md)
+  * [Cómo subir proyectos a GitHub](my-notes/git-and-github/como-subir-proyectos-a-github.md)
 
 ## — certificates
 

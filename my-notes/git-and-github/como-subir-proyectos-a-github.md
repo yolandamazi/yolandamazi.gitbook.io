@@ -1,6 +1,4 @@
-# Git & GitHub
-
-### Cómo subir proyectos a github
+# Cómo subir proyectos a GitHub
 
 #### 1. Crea un repositorio en GitHub
 
