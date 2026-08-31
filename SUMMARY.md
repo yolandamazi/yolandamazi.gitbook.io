@@ -16,6 +16,6 @@
 * [FR](languages/fr/README.md)
   * [Grammar](languages/fr/grammar.md)
 
-## — TFG
+## — Trabajo Fin de Grado
 
-* [Aplicación para la Integración y Sincronización Temporal de Señales Biomédicas Multimodales](tfg/aplicacion-para-la-integracion-y-sincronizacion-temporal-de-senales-biomedicas-multimodales.md)
+* [Aplicación para la Integración y Sincronización Temporal de Señales Biomédicas Multimodales](trabajo-fin-de-grado/aplicacion-para-la-integracion-y-sincronizacion-temporal-de-senales-biomedicas-multimodales.md)
