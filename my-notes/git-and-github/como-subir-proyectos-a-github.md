@@ -50,6 +50,8 @@ Y listo. Tu proyecto local estará en GitHub.
 #### 7. Cada vez que modifiques el proyecto
 
 ```
+cd ruta/de/tu/proyecto
+git init
 git add .
 git commit -m "Descripción de los cambios"
 git push
