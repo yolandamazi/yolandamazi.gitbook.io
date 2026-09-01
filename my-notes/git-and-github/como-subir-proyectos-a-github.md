@@ -54,5 +54,6 @@ cd ruta/de/tu/proyecto
 git init
 git add .
 git commit -m "Descripción de los cambios"
-git push
+git pull origin main --rebase
+git push origin main
 ```
