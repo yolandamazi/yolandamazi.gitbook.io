@@ -4,6 +4,8 @@
 
 ## — My Notes
 
+* [SQL](my-notes/sql/README.md)
+  * [SQLBolt Lessons](my-notes/sql/sqlbolt-lessons.md)
 * [Git & GitHub](my-notes/git-and-github/README.md)
   * [Cómo subir proyectos a GitHub](my-notes/git-and-github/como-subir-proyectos-a-github.md)
 
@@ -13,10 +15,6 @@
 * [AWS Certified AI Practitioner](certificates/aws-certified-ai-practitioner.md)
 * [Google Cybersecurity Profesional Certificate](certificates/google-cybersecurity-profesional-certificate.md)
 * [AWS Certified Cloud Practitioner](certificates/aws-certified-cloud-practitioner.md)
-
-## — Trabajo Fin de Grado
-
-* [Aplicación para la Integración y Sincronización Temporal de Señales Biomédicas Multimodales](trabajo-fin-de-grado/aplicacion-para-la-integracion-y-sincronizacion-temporal-de-senales-biomedicas-multimodales.md)
 
 ## — languages
 
