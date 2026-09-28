@@ -40,12 +40,32 @@ WHERE condition
 
 ### Select query with unique results
 
+* Distinct: Quitar duplicados que sean idénticos
+
 ```sql
-// Some codeSQL
+SELECT DISTINCT column, another_column, …
+FROM mytable
+WHERE condition(s);
 ```
 
-|   |   |   |
-| - | - | - |
-|   |   |   |
-|   |   |   |
-|   |   |   |
+### Select query with ordered results
+
+```sql
+SELECT column, another_column, …
+FROM mytable
+WHERE condition(s)
+ORDER BY column ASC/DESC;
+```
+
+### Select query with limited rows
+
+* Limit: sirve para definir cuantos rows, quiere que aparezcan
+* Offset: para indicar cuando debe empezar a contar los rows
+
+```sql
+SELECT column, another_column, …
+FROM mytable
+WHERE condition(s)
+ORDER BY column ASC/DESC
+LIMIT num_limit OFFSET num_offset;
+```
