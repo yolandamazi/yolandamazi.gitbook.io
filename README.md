@@ -33,7 +33,7 @@ layout:
 ### — who am i?
 
 * <mark style="color:$primary;">Computer Engineering</mark> Graduate @ Universidad de Alcalá.
-* <mark style="color:$primary;">Artificial Intelligence & Data Engineering</mark> Master's Student @ Universidad Internaciobal de la Rioja
+* <mark style="color:$primary;">Artificial Intelligence & Data Engineering</mark> <mark style="color:$primary;">Master's</mark> Student @ Universidad Internacional de la Rioja
 * My main interest lie in <mark style="color:$primary;">Data Engineering, AI & ML</mark>, focusing on deepening my knowledge and practical skills.
 * Check out my [resume](https://drive.google.com/file/d/1MKCM-932GvrxufxQ8bk9v7lpa2LuSeJk/view?usp=sharing) for more details about my background — I’m always open to feedback and suggestions!
 
