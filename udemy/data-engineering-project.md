@@ -36,3 +36,30 @@ description: Course by Matthew Schembri, including SQL, Python, Airflow, Docker,
 * For this we will use, GitHub actions
 
 ## Project's Code
+
+### Data extraction using an API
+
+An **API (Application Programming Interface)** is a set of code, rules and protocols that allow different software applications to communicate with each other. To explain it in a easier way it works as an intermediate between a client requesting information needed to a database or server to later on send it to the client, answering to the request made by the client
+
+**— How to create a Google API:**&#x20;
+
+1. Open <a href="https://console.cloud.google.com" target="_blank">console.cloud.google.com</a>&#x20;
+2. Create a new project and name it, in this case, YoutubeAPICourse, and select no organization
+3. After creating the API, display de left menu, access to API and services > Library
+4. Then scroll down and choose the "Youtube Data API v3"
+5. Click on enable and then the Create credentials button
+6. Choose the public data option, click the next button and then the API key will display on the screen
+7. Press the restrict the key to limit which website IP addresses or apps can call the API with the key, in our case we just wanna acces to the Youtube API v3
+8. A new window will pop out, if it's displayed, make sure it says restrict key, and the on the toggle to choose the API restrictions, select the one you are using, Youtube in this case
+9. Then, press save
+10. You will go back to the previous window, the press public key again and this time press save
+11. On the left menu, go to the credentials section under API and services, the API key should be there
+12. Make sure you do NOT share this key with anyone, and in this case, once the project is done, you should delete it
+
+**— How to setup sandbox enviroments:**
+
+1. On the top right, click on activate the cloud shell <i class="fa-square-terminal">:square-terminal:</i> and a terminal will pop out
+2. Then press on the button open editor
+3. An IDE similar to VSCode but inside the Google Cloud Enviroment, it may be used the same way but there are limitations to this sandbox enviroments in terms of using quotas which is 50 hours per week and there's only 5GB of persistent storage
+
+**— Get familiar with the Youtube API**
