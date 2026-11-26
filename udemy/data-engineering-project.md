@@ -41,7 +41,7 @@ description: Course by Matthew Schembri, including SQL, Python, Airflow, Docker,
 
 An **API (Application Programming Interface)** is a set of code, rules and protocols that allow different software applications to communicate with each other. To explain it in a easier way it works as an intermediate between a client requesting information needed to a database or server to later on send it to the client, answering to the request made by the client
 
-**— How to create a Google API:**&#x20;
+#### **— How to create a Google API:**&#x20;
 
 1. Open <a href="https://console.cloud.google.com" target="_blank">console.cloud.google.com</a>&#x20;
 2. Create a new project and name it, in this case, YoutubeAPICourse, and select no organization
@@ -56,10 +56,10 @@ An **API (Application Programming Interface)** is a set of code, rules and proto
 11. On the left menu, go to the credentials section under API and services, the API key should be there
 12. Make sure you do NOT share this key with anyone, and in this case, once the project is done, you should delete it
 
-**— How to setup sandbox enviroments:**
+#### **— How to setup sandbox enviroments:**
 
 1. On the top right, click on activate the cloud shell <i class="fa-square-terminal">:square-terminal:</i> and a terminal will pop out
 2. Then press on the button open editor
 3. An IDE similar to VSCode but inside the Google Cloud Enviroment, it may be used the same way but there are limitations to this sandbox enviroments in terms of using quotas which is 50 hours per week and there's only 5GB of persistent storage
 
-**— Get familiar with the Youtube API**
+#### **— Get familiar with the Youtube API**
