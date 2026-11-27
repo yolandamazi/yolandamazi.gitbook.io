@@ -33,11 +33,11 @@ layout:
 ### — who am i?
 
 * <mark style="color:$primary;">Computer Engineering</mark> Graduate @ Universidad de Alcalá.
-* <mark style="color:$primary;">Artificial Intelligence & Data Engineering</mark> <mark style="color:$primary;">Master's</mark> Student @ Universidad Internacional de la Rioja
+* Master in <mark style="color:$primary;">Artificial Intelligence & Data Engineering</mark> Student @ Universidad Internacional de la Rioja
 * My main interest lie in <mark style="color:$primary;">Data Engineering, AI & ML</mark>, focusing on deepening my knowledge and practical skills.
-* Check out my [resume](https://drive.google.com/file/d/1MKCM-932GvrxufxQ8bk9v7lpa2LuSeJk/view?usp=sharing) for more details about my background — I’m always open to feedback and suggestions!
+* Check out my [resume](https://drive.google.com/file/d/1MKCM-932GvrxufxQ8bk9v7lpa2LuSeJk/view?usp=sharing) for more details about my background — I’m always open to feedback and suggestions!
 
-### — what's my purpose?
+— what's my purpose?
 
 Documenting what I’m actively learning and building as I grow through my journey in data science & machine learning. Right now, I’m focused on studying for certifications, strengthening my technical foundations, and developing the hands-on skills needed in the field. I will write about the certificates I’m pursuing, the concepts I’m studying, the tools I’m practicing, and my progress as I train to become better. Additionally, I’ll track my language studies, including reinforcing my English skills and learning French as a new language. This helps me stay consistent, reflect on my growth, improve my language skills, and keep a clear record of everything I learn as I continue developing in the AI world.
 
