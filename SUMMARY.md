@@ -2,16 +2,16 @@
 
 * [welcome ¡!](README.md)
 
-## — udemy
+## — learn with udemy
 
-* [#1. Project](udemy/1.-project.md)
+* [#1. Project](learn-with-udemy/1.-project.md)
 
-## — My Notes
+## — programming
 
-* [SQL](my-notes/sql/README.md)
-  * [SQLBolt Lessons](my-notes/sql/sqlbolt-lessons.md)
-* [Git & GitHub](my-notes/git-and-github/README.md)
-  * [Cómo subir proyectos a GitHub](my-notes/git-and-github/como-subir-proyectos-a-github.md)
+* [SQL](programming/sql/README.md)
+  * [SQLBolt Lessons](programming/sql/sqlbolt-lessons.md)
+* [Git & GitHub](programming/git-and-github/README.md)
+  * [Cómo subir proyectos a GitHub](programming/git-and-github/como-subir-proyectos-a-github.md)
 
 ## — certificates
 
